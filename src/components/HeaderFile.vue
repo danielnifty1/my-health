@@ -37,7 +37,7 @@ function scrollFunction() {
       "opacity-90 z-40 md:flex md:items-right md:px-0 px=10 md:pb-0 pb-10 md:static absolute   md:w-auto w-full top-14 duration-700 ease-in text-[#3f3a64]"; // Fade in
   } else {
     document.getElementById("gen")!.className =
-      "bg-transparent w-full absolute transition delay-150 duration-300 ease-in-out will-change-scroll"; // Fade in
+      "bg-transparent w-full fixed z-[9999] transition delay-150 duration-300 ease-in-out will-change-scroll"; // Fade in
 
     document.getElementById("namecenter")!.className =
       "text-4xl text-white  font-bold  transition delay-150 duration-300 ease-in-out will-change-scroll "; // Fade in
@@ -49,7 +49,7 @@ function scrollFunction() {
 </script>
 
 <template>
- <div class="bg-transparent w-full absolute  " id="gen">
+ <div class="bg-transparent w-full fixed z-[9999] transition delay-150 duration-300 ease-in-out will-change-scroll  " id="gen">
     <div
       class="bg-[ rgba(126, 82, 193,0.7)] md:opacity-90 z-50 text-gray-100 py-5 px-6 md:flex justify-between items-center w-full border-b-[1px] border-[#bfcdeb]"
     >
