@@ -196,7 +196,7 @@ export default {
         </p>
       </div>
 
-      <div class=" ">
+      <div class="flex md:justify-start justify-center ">
         <button
           class="bg-blue-900 text-[18px] leading-[30px] text-white font-bold rounded btn-style"
         >
