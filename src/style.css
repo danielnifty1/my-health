@@ -103,7 +103,7 @@
 .w3l-progress .progress-bar.gradient-3:before {
   content: "";
   position: absolute;
-  right: 40%;
+  right: 0%;
   top: 90%;
   border-radius: 50%;
   transform: translate(50%, -50%); }
@@ -145,7 +145,7 @@
 .w3l-progress .info3 h6.progress-tittle {
   display: grid;
   grid-template-columns: 1fr auto;
-  width: 60%; }
+  width: 100%; }
 
 .w3l-progress .info4 h6.progress-tittle {
   display: grid;

@@ -1,20 +1,21 @@
-<script  lang="ts">
+<script lang="ts">
 import TestimonyView from "./testimonialView.vue";
 
-
-
-import { Swiper, SwiperSlide } from 'swiper/vue';
+import { Swiper, SwiperSlide } from "swiper/vue";
 
 // Import Swiper styles
-import 'swiper/css';
+import "swiper/css";
 
-import 'swiper/css/navigation';
+import "swiper/css/navigation";
 
 //   import './style.css';
 // import required modules
-import {EffectCoverflow,Autoplay, Pagination, Navigation } from 'swiper/modules';
- 
- 
+import {
+  EffectCoverflow,
+  Autoplay,
+  Pagination,
+  Navigation,
+} from "swiper/modules";
 
 export default {
   components: {
@@ -22,99 +23,92 @@ export default {
     SwiperSlide,
   },
   setup() {
-    
-
-
     return {
-      modules: [EffectCoverflow,Autoplay, Pagination, Navigation],
-      
+      modules: [EffectCoverflow, Autoplay, Pagination, Navigation],
     };
   },
-  
-
 };
-
-
 </script>
 
 <template>
   <!-- BANNER SECTION -->
-  <swiper 
-  :slidesPerView=1
-  :spaceBetween="0"
-  :autoplay="{
-    delay: 5500,
-    disableOnInteraction: false,
-  }"
-  :pagination="{
-    clickable: true,
-  }"
-  :modules="modules"
- 
-  class="mySwiper grid md:h-[700px] h-[400px] bg-cover bg-no-repeat content-center ">
-  <swiper-slide class="grid md:h-[700px] h-[400px] bg-cover bg-no-repeat content-center"> 
-  <div
-    class="grid md:h-[700px] h-[400px] bg-cover bg-no-repeat content-center"
-    style="
-      background-image: linear-gradient(
-          rgba(151, 92, 198, 0.7),
-          rgba(61, 81, 187, 0.7)
-        ),
-        url(/img/banner1.jpg);
-      background-size: c;
-    "
+  <swiper
+    :slidesPerView="1"
+    :spaceBetween="0"
+    :autoplay="{
+      delay: 5500,
+      disableOnInteraction: false,
+    }"
+    :pagination="{
+      clickable: true,
+    }"
+    :modules="modules"
+    class="mySwiper grid md:h-[700px] h-[400px] bg-cover bg-no-repeat content-center"
   >
-    <div class="grid grid-cols-1 gap-1 place-items-center mt-20 space-y-5">
-      <h2
-        class="text-2xl md:text-6xl font-bold text-center text-white mt-10 md:mt-0"
+    <swiper-slide
+      class="grid md:h-[700px] h-[400px] bg-cover bg-no-repeat content-center"
+    >
+      <div
+        class="grid md:h-[700px] h-[400px] bg-cover bg-no-repeat content-center"
+        style="
+          background-image: linear-gradient(
+              rgba(151, 92, 198, 0.7),
+              rgba(61, 81, 187, 0.7)
+            ),
+            url(/img/banner1.jpg);
+          background-size: c;
+        "
       >
-        50% Discount on all Popular <br />Courses
-      </h2>
-      <p class="font-bold text-white pl-5 pr-5 text-center">
-        Take the first step to your journey to success with us
-      </p>
+        <div class="grid grid-cols-1 gap-1 place-items-center mt-20 space-y-5">
+          <h2
+            class="text-2xl md:text-6xl font-bold text-center text-white mt-10 md:mt-0"
+          >
+            50% Discount on all Popular <br />Courses
+          </h2>
+          <p class="font-bold text-white pl-5 pr-5 text-center">
+            Take the first step to your journey to success with us
+          </p>
 
-      <button
-        class="bg-blue-900 text-[18px] leading-[30px] text-white font-bold rounded-full btn-style"
+          <button
+            class="bg-blue-900 text-[18px] leading-[30px] text-white font-bold rounded-full btn-style"
+          >
+            Ready to get start?
+          </button>
+        </div>
+      </div>
+    </swiper-slide>
+
+    <swiper-slide class="">
+      <div
+        class="grid md:h-[700px] h-[400px] bg-cover bg-no-repeat content-center"
+        style="
+          background-image: linear-gradient(
+              rgba(151, 92, 198, 0.7),
+              rgba(61, 81, 187, 0.7)
+            ),
+            url(/img/banner1.jpg);
+          background-size: c;
+        "
       >
-        Ready to get start?
-      </button>
-    </div>
-  </div>
-</swiper-slide>
+        <div class="grid grid-cols-1 gap-1 place-items-center mt-20 space-y-5">
+          <h2
+            class="text-2xl md:text-6xl font-bold text-center text-white mt-10 md:mt-0"
+          >
+            50% Discount on all Popular <br />Courses
+          </h2>
+          <p class="font-bold text-white pl-5 pr-5 text-center">
+            Take the first step to your journey to success with us
+          </p>
 
-
-<swiper-slide class=""> 
-  <div
-    class="grid md:h-[700px] h-[400px] bg-cover bg-no-repeat content-center"
-    style="
-      background-image: linear-gradient(
-          rgba(151, 92, 198, 0.7),
-          rgba(61, 81, 187, 0.7)
-        ),
-        url(/img/banner1.jpg);
-      background-size: c;
-    "
-  >
-    <div class="grid grid-cols-1 gap-1 place-items-center mt-20 space-y-5">
-      <h2
-        class="text-2xl md:text-6xl font-bold text-center text-white mt-10 md:mt-0"
-      >
-        50% Discount on all Popular <br />Courses
-      </h2>
-      <p class="font-bold text-white pl-5 pr-5 text-center">
-        Take the first step to your journey to success with us
-      </p>
-
-      <button
-        class="bg-blue-900 text-[18px] leading-[30px] text-white font-bold rounded-full btn-style"
-      >
-        Ready to get start?
-      </button>
-    </div>
-  </div>
-</swiper-slide>
-</swiper>
+          <button
+            class="bg-blue-900 text-[18px] leading-[30px] text-white font-bold rounded-full btn-style"
+          >
+            Ready to get start?
+          </button>
+        </div>
+      </div>
+    </swiper-slide>
+  </swiper>
   <!--  ABOUT SECTION -->
   <div
     class="grid md:grid-cols-2 gap-4 place-items-center pt-20 md:pl-20 pl-5 md:pr-20 pr-2 pb-0"
@@ -196,7 +190,7 @@ export default {
         </p>
       </div>
 
-      <div class="flex md:justify-start justify-center ">
+      <div class="flex md:justify-start justify-center">
         <button
           class="bg-blue-900 text-[18px] leading-[30px] text-white font-bold rounded btn-style"
         >
@@ -277,7 +271,7 @@ export default {
           <div class="w-full"></div>
         </div>
         <div class="grid grid-cols-1 gap-4 place-items-center">
-          <p class="mt-10 text-center text-[#7e7d7d]">
+          <p class="md:mt-10 mt-20  text-center text-[#7e7d7d]">
             Join this fitness member, the best choice that I’ve. They’re very
             professional
           </p>
@@ -345,7 +339,7 @@ export default {
   <!-- PATHNERS -->
 
   <div
-    class="grid md:grid-cols-6 grid-cols-3 w-10/12 place-items-center md:pt-20 md:pl-60 pl-5 md:pr-60 pr-2 pb-0 pl-20 pr-20 mt-10 md:mt-0"
+    class="grid md:grid-cols-6 grid-cols-3 w-10/12 place-items-center md:pt-20 md:pl-60 ml-10 md:pr-60 pr-2 pb-0 pl-20 pr-20 mt-10 md:mt-0"
   >
     <img src="/img/brand1.png" class="w-8/12" />
     <img src="/img/brand2.png" class="w-8/12" />
