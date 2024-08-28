@@ -1,7 +1,7 @@
 <template>
   <div class="grid grod-cols-1 place-items-center mt-10 space-y-5 mb-10">
     <p class="font-bold text-blue-800 text-2xl">Focus on Your Business</p>
-    <p class="text-4xl font-bold text-center text-semibold">
+    <p class="text-2xl font-bold text-center text-semibold">
       A STANDAERD REGISTERED HEALTH <br />CONSULTANCY
     </p>
     <p class="text-center w-6/12">
@@ -15,8 +15,8 @@
     </div>
   </div>
 
-  <div class="bg-[#f8f8f8] grid grid-cols-1 pl-40 pr-40 mb-10 pt-10">
-    <div class="grid grid-cols-2 place-items-start space-x-5 P-24">
+  <div class="bg-[#f8f8f8] grid grid-cols-1 md:pl-40 pl-5 pr-5 md:pr-40 mb-10 pt-10">
+    <div class="grid md:grid-cols-2 place-items-start space-x-5 P-24">
       <div class="grid grid-cols-1 space-y-5">
         <p class="font-bold text-blue-800 text-xl">What We Do</p>
         <p class="text-4xl font-bold text-semibold">Our Services</p>
@@ -36,13 +36,13 @@
         </p>
       </div>
 
-      <div class="">
+      <div class="mt-5 md:mt-0 hidden md:grid">
         <img src="/img/about.jpg" class="rounded-xl" />
       </div>
     </div>
 
-    <div class="grid grid-cols-2 place-items-start space-x-10 P-24 mt-24 pb-10">
-      <div class="">
+    <div class="grid md:grid-cols-2 place-items-start md:space-x-10 md:P-24 mt-24 pb-10">
+      <div class="mb-5 md:mt-0">
         <img src="/img/about.jpg" class="rounded-xl" />
       </div>
       <div class="grid grid-cols-1 space-y-5">
@@ -66,10 +66,10 @@
   </div>
 
   <div
-    class="grid grid-cols-2 pl-40 pr-40 mb-10 pt-10 space-x-10 place-items-start"
+    class="grid md:grid-cols-2 md:pl-40 md:pr-40 pr-5 pl-5  mb-10 pt-10 space-x-10 place-items-start"
   >
     <div class="grid space-y-5">
-      <p>CONTRIBUTIONS TO THE GROWTH AND DEVELOPMENT OF SCIENCE</p>
+      <p class="text-center md:text-start">CONTRIBUTIONS TO THE GROWTH AND DEVELOPMENT OF SCIENCE</p>
       <p class="text-2xl font-bold text-semibold text-center">SERVICES TO SCIENCE</p>
       <p>
         Prof. B. E. B. Nwoke has strongly contributed to academic leadership and growth as well as stimulated superior and excellent research studies and learning in the University. He has been involved in external examination of postgraduate students (PhD and or Masters Degree) in 12 Universities and in the assessment of more than 50 colleagues to the ranks of Professor/Reader in Nigeria and abroad. He has also successfully supervised more than 300 undergraduate projects, at least 67 Masters Degree and at least 75 PhD Theses. Out these postgraduates, 22 of them are Professors. One of his postgraduate students is now a Vice Chancellor and another one is currently a Deputy Vice Chancellor. He has to his credit not less than 213 academic and professional publications (journal, proceedings, technical reports, book, and book chapter). Prof Nwoke has been involved in the postgraduate external examination of the following Institutions
@@ -123,9 +123,9 @@
     </div>
 
     <div>
-      <div class="space-y-5">
+      <div class="md:space-y-5 space-y-2 mt-5 md:mt-0">
         <p class="text-center">SERVICE TO HUMANITY</p>
-        <p class="text-2xl font-bold text-semibold text-center">CONTRIBUTIONS TO GOVERNMENT AND COMMUNITY SERVICE</p>
+        <p class="text-sm md:text-2xl font-bold text-semibold text-center">CONTRIBUTIONS TO GOVERNMENT AND COMMUNITY SERVICE</p>
 
        
         <p>
