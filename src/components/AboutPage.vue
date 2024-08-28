@@ -34,7 +34,7 @@
     <div class="grid grid-cols-1 gap-1 md:p-10 p-2 md:space-y-10 space-y-5">
       <div class="space-y-1">
         <h4 class="text-[15px] font-bold text-[#7e7d7d]">About CEO</h4>
-        <h2 class="font-bold md:text-4xl text-2xl text-[#3f3a64]">
+        <h2 class="font-bold  text-2xl text-[#3f3a64]">
           CHIEF EXECUTIVE OFFICER (CEO): PROF. BERTRAM EKEJIUBA BRIGHT NWOKE, FAS
         </h2>
       </div>
