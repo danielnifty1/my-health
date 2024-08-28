@@ -54,13 +54,13 @@
           </div>
 
           <div class="space-x-8 text-[#677d8d]">
-            <span class="fa fa-twitter"></span>
+            <span class="fa-brands fa-twitter"></span>
 
             <span class="fa fa-envelope"></span>
 
-            <span class="fa fa-facebook"></span>
+            <span class="fa-brands fa-facebook"></span>
 
-            <span class="fa fa-facebook"></span>
+            <span class="fa-brands fa-instagram"></span>
           </div>
         </div>
 
