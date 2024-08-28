@@ -61,19 +61,19 @@ export default {
       >
         <div class="grid grid-cols-1 gap-1 place-items-center mt-20 space-y-5">
           <h2
-            class="text-2xl md:text-6xl font-bold text-center text-white mt-10 md:mt-0"
+            class="text-2xl md:text-4xl font-bold text-center text-white mt-10 md:mt-0"
           >
-            50% Discount on all Popular <br />Courses
+          Take care of your body<br />It's the only place you have to live
           </h2>
           <p class="font-bold text-white pl-5 pr-5 text-center">
-            Take the first step to your journey to success with us
+            Take the first step to your journey to good health
           </p>
 
-          <button
+          <a href="cotact"
             class="bg-blue-900 text-[18px] leading-[30px] text-white font-bold rounded-full btn-style"
           >
             Ready to get start?
-          </button>
+          </a>
         </div>
       </div>
     </swiper-slide>
@@ -92,19 +92,19 @@ export default {
       >
         <div class="grid grid-cols-1 gap-1 place-items-center mt-20 space-y-5">
           <h2
-            class="text-2xl md:text-6xl font-bold text-center text-white mt-10 md:mt-0"
+            class="text-2xl md:text-4xl font-bold text-center text-white mt-10 md:mt-0"
           >
-            50% Discount on all Popular <br />Courses
+        Good health and good sense are two of life's <br />greatest blessings.
           </h2>
           <p class="font-bold text-white pl-5 pr-5 text-center">
             Take the first step to your journey to success with us
           </p>
 
-          <button
+          <a href="cotact"
             class="bg-blue-900 text-[18px] leading-[30px] text-white font-bold rounded-full btn-style"
           >
             Ready to get start?
-          </button>
+          </a>
         </div>
       </div>
     </swiper-slide>
@@ -117,15 +117,13 @@ export default {
       <div class="space-y-1">
         <h4 class="text-[15px] font-bold text-[#7e7d7d]">About us</h4>
         <h2 class="font-bold md:text-4xl text-2xl text-[#3f3a64]">
-          We make the best strategies for you, Enhancing your success
+          We make the best strategies for you, Enhancing your health
         </h2>
       </div>
 
       <div class="text-[#7e7d7d] font-bold text-[15px]">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud ullamco laboris nisi ut ex ea.
+          Trusted Partner in Public Health, Leadership & Ethical Development
         </p>
       </div>
 
@@ -134,21 +132,21 @@ export default {
           <span
             class="fa fa-check bg-blue-900 p-1 rounded-full text-white"
           ></span>
-          <p class="font-bold text-[#3f3a64]">UI/UX Design and Development</p>
+          <p class="font-bold text-[#3f3a64]">(a)	Angewandte Parasitologie (Germany), 1992</p>
         </div>
 
         <div class="flex space-x-2">
           <span
             class="fa fa-check bg-blue-900 p-1 rounded-full text-white"
           ></span>
-          <p class="font-bold text-[#3f3a64]">UI/UX Design and Development</p>
+          <p class="font-bold text-[#3f3a64]">(b)	African Health (UK) 1990 </p>
         </div>
 
         <div class="flex space-x-2">
           <span
             class="fa fa-check bg-blue-900 p-1 rounded-full text-white"
           ></span>
-          <p class="font-bold text-[#3f3a64]">UI/UX Design and Development</p>
+          <p class="font-bold text-[#3f3a64]">(a)	Nigeria Journal of Parasitology 1991</p>
         </div>
       </div>
     </div>
@@ -174,28 +172,25 @@ export default {
     >
       <div class="space-y-1">
         <h4 class="md:text-[15px] font-bold text-[#7e7d7d]">
-          EVERY DAY BRINGS NEW CHALLENGES
+          TOP UNIVERSITY ATTENDED
         </h4>
-        <h2 class="font-bold md:text-4xl text-2xl text-[#3f3a64]">
-          Creative agency focused on vision, product and people
+        <h2 class="font-bold md:text-2xl text-2xl text-[#3f3a64]">
+          CONTRIBUTIONS TO THE GROWTH AND DEVELOPMENT OF SCIENCE
         </h2>
       </div>
 
       <div class="text-[#7e7d7d] md:font-bold text-[15px]">
         <p>
-          Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac
-          sed, lacinia est. Quisque ut lectus consequat, venenatis eros et, sed
-          commodo risus. Nullam sit amet laoreet elit. Suspendisse non init
-          magnaa velit efficitur, dolor eget ex fermentum.
+          Prof. B. E. B. Nwoke has strongly contributed to academic leadership and growth as well as stimulated superior and excellent research studies and learning in the University. He has been involved in external examination of postgraduate students (PhD and or Masters Degree) in 12 Universities and in the assessment of more than 50 colleagues to the ranks of Professor/Reader in Nigeria and abroad.
         </p>
       </div>
 
       <div class="flex md:justify-start justify-center">
-        <button
+        <a  href="about"
           class="bg-blue-900 text-[18px] leading-[30px] text-white font-bold rounded btn-style"
         >
           Discover More
-        </button>
+        </a>
       </div>
     </div>
 
@@ -207,9 +202,9 @@ export default {
       >
         <img src="/img/icon4.png" class="rounded-xl" />
         <h1
-          class="md:md:text-2xl font-bold text-[#3f3a64] hover:text-green-900 hover:cursor-pointer"
+          class="md:md:text-2xl font-bold text-[#3f3a64] hover:text-green-900 hover:cursor-pointer text-center"
         >
-          Our Process
+          Contribition<br> To Science
         </h1>
       </div>
 
@@ -218,9 +213,9 @@ export default {
       >
         <img src="/img/icon1.png" class="rounded-xl" />
         <h1
-          class="md:text-2xl font-bold text-[#3f3a64] hover:text-green-900 hover:cursor-pointer"
+          class="md:text-2xl font-bold text-[#3f3a64] hover:text-green-900 hover:cursor-pointer text-center"
         >
-          Our Process
+        Contribition<br> To Community
         </h1>
       </div>
 
@@ -229,9 +224,9 @@ export default {
       >
         <img src="/img/icon2.png" class="rounded-xl" />
         <h1
-          class="md:text-2xl font-bold text-[#3f3a64] hover:text-green-900 hover:cursor-pointer"
+          class="md:text-2xl font-bold text-[#3f3a64] hover:text-green-900 hover:cursor-pointer text-center"
         >
-          Our Process
+        Contribition<br> To Government
         </h1>
       </div>
 
@@ -240,9 +235,9 @@ export default {
       >
         <img src="/img/icon3.png" class="rounded-xl" />
         <h1
-          class="md:text-2xl font-bold text-[#3f3a64] hover:text-green-900 hover:cursor-pointer"
+          class="md:text-2xl font-bold text-[#3f3a64] hover:text-green-900 hover:cursor-pointer text-center"
         >
-          Our Process
+        Contribition<br> To Global Health
         </h1>
       </div>
     </div>
@@ -265,22 +260,21 @@ export default {
           <h2
             class="p-2 bg-white rounded text-center text-xl font-bold text-[#3f3a64]"
           >
-            Work Expertise
+            Public Health
           </h2>
 
           <div class="w-full"></div>
         </div>
         <div class="grid grid-cols-1 gap-4 place-items-center">
           <p class="md:mt-10 mt-20  text-center text-[#7e7d7d]">
-            Join this fitness member, the best choice that I’ve. They’re very
-            professional
+            The science of protecting and improving the health of people and their communities
           </p>
 
-          <p
+          <a href="services"
             class="text-[#3f3a64] font-bold hover:cursor-pointer hover:text-blue-900"
           >
             Learn More
-          </p>
+        </a>
         </div>
       </div>
 
@@ -290,22 +284,21 @@ export default {
           <h2
             class="p-2 bg-white rounded text-center text-xl font-bold text-[#3f3a64]"
           >
-            Product Development
+           Leadership
           </h2>
 
           <div class="w-full"></div>
         </div>
         <div class="grid grid-cols-1 gap-4 place-items-center">
           <p class="mt-10 text-center text-[#7e7d7d]">
-            Join this fitness member, the best choice that I’ve. They’re very
-            professional
+            influencing and motivating medical personnel to contribute to the success and effectiveness of medicine, patient care, and health care practices
           </p>
 
-          <p
+          <a href="services"
             class="text-[#3f3a64] font-bold hover:cursor-pointer hover:text-blue-900"
           >
             Learn More
-          </p>
+        </a>
         </div>
       </div>
 
@@ -315,22 +308,21 @@ export default {
           <h2
             class="p-2 bg-white rounded text-center text-xl font-bold text-[#3f3a64]"
           >
-            Software Development
+          Ethical Development
           </h2>
 
           <div class="w-full"></div>
         </div>
         <div class="grid grid-cols-1 gap-4 place-items-center">
           <p class="mt-10 text-center text-[#7e7d7d]">
-            Join this fitness member, the best choice that I’ve. They’re very
-            professional
+            focuses on the emergence, change, and understanding of morality from early childhood through adulthood
           </p>
 
-          <p
+          <a href="services"
             class="text-[#3f3a64] font-bold hover:cursor-pointer hover:text-blue-900"
           >
             Learn More
-          </p>
+        </a>
         </div>
       </div>
     </div>
@@ -360,81 +352,16 @@ export default {
         <h4 class="md:text-[15px] font-bold text-[#7e7d7d]">
           YOUR SUCCESS IS OUR SUCCESS
         </h4>
-        <h2 class="font-bold md:text-4xl text-2xl text-[#3f3a64]">
-          Web design, marketing & SEO solutions that get results
+        <h2 class="font-bold md:text-2xl text-2xl text-[#3f3a64]">
+          CHIEF EXECUTIVE OFFICER (CEO): PROF. BERTRAM EKEJIUBA BRIGHT NWOKE, FAS 
         </h2>
       </div>
 
-      <section class="w3l-progress" id="progress">
-        <div class="midd-w3">
-          <div class="container py- lg-5 py-md-4 py-2">
-            <div class="row align-items-center">
-              <div class="">
-                <div class="progress-info info1">
-                  <h6 class="progress-tittle">
-                    Marketing <span class="">80%</span>
-                  </h6>
-                  <div class="progress">
-                    <div
-                      class="progress-bar progress-bar-striped gradient-1"
-                      role="progressbar"
-                      style="width: 80%"
-                      aria-valuenow="90"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
-                <div class="progress-info info2">
-                  <h6 class="progress-tittle">
-                    Responsive Web design <span class="">95%</span>
-                  </h6>
-                  <div class="progress">
-                    <div
-                      class="progress-bar progress-bar-striped gradient-2"
-                      role="progressbar"
-                      style="width: 95%"
-                      aria-valuenow="95"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
-                <div class="progress-info info3">
-                  <h6 class="progress-tittle">
-                    Analytics <span class="">60%</span>
-                  </h6>
-                  <div class="progress">
-                    <div
-                      class="progress-bar progress-bar-striped gradient-3"
-                      role="progressbar"
-                      style="width: 60%"
-                      aria-valuenow="95"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
-                <div class="progress-info info4 mb-0">
-                  <h6 class="progress-tittle">
-                    Web Development <span class="">85%</span>
-                  </h6>
-                  <div class="progress">
-                    <div
-                      class="progress-bar progress-bar-striped gradient-4"
-                      role="progressbar"
-                      style="width: 85%"
-                      aria-valuenow="95"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <p>
+          Prof. Bertram Ekejiuba Bright Nwoke is from Umuariam, Obowo LGA in Imo State, Nigeria. He was a pioneer student of Institute of Management and Technology, Enugu where he obtained OND (Science Laboratory Technology) in 1975. He was one of the pioneer students of University of Jos who matriculated in 1976. He obtained B.Sc. (Zoology) Second Class Upper Division in 1979 and came out as the first best graduating student of Zoology, University of Jos. He also has to his credit an MSc degree in Applied Entomology & Parasitology (1981) and PhD degree in Medical Parasitology & Entomology (1987) all from the University of Jos. He is well trained in Total Quality Management and has a certificate on it.... <a href="about" clas="font-bold text-blue-500 text-2xl ">Read More</a>
+        </p>
+
+      
     </div>
   </div>
 
