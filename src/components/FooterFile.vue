@@ -9,8 +9,7 @@
         Let’s find out how to work together
       </h1>
       <p class="text-white text-center">
-        Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore nisi esse
-        quasi, sit amet. Lorem ipsum dolor sit amet elit.
+       Feel free to subscribe to our newsletter service
       </p>
 
       <form>
@@ -50,20 +49,18 @@
 
           <div class="pb-5">
             <p class="text-[#7e7d7d] text-[18px] font-bold">
-              Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
-              ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit
-              amet Semper at elit team advisors.
+              Create an enabling environment for efficient and effective prevention and control strategies for Public health important endemic diseases and development of persons in authority to be truly inspirational.
             </p>
           </div>
 
           <div class="space-x-8 text-[#677d8d]">
-            <span class="fa fa-twitter"></span>
+            <span class="fa-brands fa-twitter"></span>
 
             <span class="fa fa-envelope"></span>
 
-            <span class="fa fa-facebook"></span>
+            <span class="fa-brands fa-facebook"></span>
 
-            <span class="fa fa-facebook"></span>
+            <span class="fa-brands fa-instagram"></span>
           </div>
         </div>
 
@@ -107,10 +104,10 @@
           </div>
 
           <div class="pb-5 space-y-5 text-[#7e7d7d] font-bold">
-            <p class=" ">UI/UX Design</p>
-            <p>Creative agency</p>
-            <p>Positive thinking</p>
-            <p>Marketing service</p>
+            <p class=" ">SERVICES TO SCIENCE</p>
+            <p>SERVICE TO HUMANITY</p>
+            <p>Contribition To Government</p>
+            <p>Contribition To Science</p>
           </div>
         </div>
 
@@ -122,11 +119,11 @@
             </h1>
           </div>
 
-          <div class="pb-5 space-y-5 text-[#7e7d7d] font-bold">
-            <p class=" ">VISIT HOME</p>
-            <p>ABOUT THE COMPANY</p>
-            <p>COMPANY SERVICES</p>
-            <p>CONTACT THE COMPANY</p>
+          <div class="pb-5 space-y-10 text-[#7e7d7d] font-bold">
+            <a href="index" class=" ">VISIT HOME</a><br><br>
+            <a href="about">ABOUT THE COMPANY</a><br><br>
+            <a href="services">COMPANY SERVICES</a><br><br>
+            <a href="contact">CONTACT THE COMPANY</a><br><br>
           </div>
         </div>
 

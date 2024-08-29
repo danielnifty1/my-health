@@ -91,9 +91,9 @@ function scrollFunction() {
         </li>
 
         <div class="flex space-x-3 pl-20">
-          <Buttons route="/signup" class="bg-blue-800 text-white p-2 rounded">
+          <!-- <Buttons route="/signup" class="bg-blue-800 text-white p-2 rounded">
             Get Started
-          </Buttons>
+          </Buttons> -->
         </div>
       </ul>
 
