@@ -69,7 +69,7 @@ export default {
             Take the first step to your journey to good health
           </p>
 
-          <a href="cotact"
+          <a href="contact"
             class="bg-blue-900 text-[18px] leading-[30px] text-white font-bold rounded-full btn-style"
           >
             Ready to get start?
@@ -100,7 +100,7 @@ export default {
             Take the first step to your journey to success with us
           </p>
 
-          <a href="cotact"
+          <a href="contact"
             class="bg-blue-900 text-[18px] leading-[30px] text-white font-bold rounded-full btn-style"
           >
             Ready to get start?
@@ -342,9 +342,9 @@ export default {
   </div>
 
   <!-- our success -->
-  <div class="grid md:grid-cols-2 gap-2 pt-20 md:pl-20 pl-5 md:pr-20 pr-2 pb-0">
+  <div class="grid md:grid-cols-2 gap-2 pt-20 md:pl-20 pl-5 md:pr-20 pr-2 pb-0 place-items-start">
     <div class="md:p-10 p-5 rounded-xl">
-      <img src="/img/about.jpg" class="rounded-xl" />
+      <img src="/img/ceo.jpg" class="rounded-xl" />
     </div>
 
     <div class="grid grid-cols-1 gap-1 md:p-10 p-5 space-y-10">

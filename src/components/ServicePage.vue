@@ -9,9 +9,9 @@
     </p>
 
     <div class="flex space-x-3 pl0">
-      <Buttons route="/signup" class="bg-blue-800 text-white p-2 rounded">
+      <a href="/contact" class="bg-blue-800 text-white p-2 rounded">
         Get Started
-      </Buttons>
+      </a>
     </div>
   </div>
 
@@ -37,13 +37,13 @@
       </div>
 
       <div class="mt-5 md:mt-0 hidden md:grid">
-        <img src="/img/about.jpg" class="rounded-xl" />
+        <img src="/img/img.jpg" class="rounded-xl" />
       </div>
     </div>
 
     <div class="grid md:grid-cols-2 place-items-start md:space-x-10 md:P-24 mt-24 pb-10">
       <div class="mb-5 md:mt-0">
-        <img src="/img/about.jpg" class="rounded-xl" />
+        <img src="/img/img2.jpg" class="rounded-xl" />
       </div>
       <div class="grid grid-cols-1 space-y-5">
         <p class="font-bold text-blue-800 text-xl">What We Do</p>

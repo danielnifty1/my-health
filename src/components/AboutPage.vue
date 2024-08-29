@@ -258,15 +258,15 @@
     </div>
 
     <div class="md:p-10 p-5 rounded-xl grid grid-cols-1">
-      <div class="grid">
+      <div class="grid place-items-center">
         <h2 class="font-bold   text-2xl text-[#3f3a64] mt-5 text-center mb-5">
           OUR TEAM
         </h2>
-        <p class="text-center">CEO</p>
-        <img src="/img/about.jpg" class="rounded-xl" />
+        <!-- <p class="text-center">CEO</p> -->
+        <img src="/img/ceo.jpg" class="rounded-xl" />
 
-        <p class="text-center font-bold">teams name</p>
-        <p class="text-center">team position</p>
+        <p class="text-center font-bold">Prof. B. E. B. Nwoke</p>
+        <p class="text-center">CEO</p>
 
 
 
@@ -275,45 +275,76 @@
 
 
       <div class="grid grid-cols-2 border place-items-center p-2 gap-4 mt-5">
-        <div class="border border-red-500 rounded-xl  " style="overflow: hidden; max-height: 350px;">
+
+        <div class="border border-blue-500 rounded-xl" style="overflow: hidden;">
+          <img src="/img/team6.jpeg" style=" max-height: 280px;" />
+          <div class="bg-gray-100">
+            <p class="text-center font-bold">Prof. Eunice A. Nwoke  </p>
+            <p class="text-center">Vice CEO </p>
+
+          </div>
+
+        </div>
+
+
+
+
+        <div class="border border-blue-500 rounded-xl  " style="overflow: hidden; max-height: 350px;">
           <img src="/img/team1.jpeg" style=" max-height: 280px;" />
           <div class="bg-gray-100">
-            <p class="text-center font-bold">teams name</p>
-            <p class="text-center">team position</p>
+            <p class="text-center font-bold">Ikenna Jachimike Nwoke</p>
+            <p class="text-center">BSc; MSc</p>
 
           </div>
 
         </div>
 
-        <div class="border border-red-500 rounded-xl h-94" style="overflow: hidden;max-height: 350px;">
+        <div class="border border-blue-500 rounded-xl h-94" style="overflow: hidden;max-height: 350px;">
           <img src="/img/team2.jpeg" style=" max-height: 280px; overflow-y: hidden;" />
           <div class="bg-gray-100">
-            <p class="text-center font-bold">teams name</p>
-            <p class="text-center">team position</p>
+            <p class="text-center font-bold">Dr. Mrs. Ijeoma Ugochi Okeke</p>
+            <p class="text-center">MBBS</p>
 
           </div>
 
         </div>
 
-        <div class="border border-red-500 rounded-xl" style="overflow: hidden;">
+        <div class="border border-blue-500 rounded-xl" style="overflow: hidden;">
           <img src="/img/team3.jpeg" style=" max-height: 280px;" />
           <div class="bg-gray-100">
-            <p class="text-center font-bold">teams name</p>
-            <p class="text-center">team position</p>
+            <p class="text-center font-bold">Barr. Mrs. Chinonso Oluchi Nwigwe</p>
+            <p class="text-center">LLB; BL</p>
 
           </div>
 
         </div>
 
-        <div class="border border-red-500 rounded-xl" style="overflow: hidden;">
+        <div class="border border-blue-500 rounded-xl" style="overflow: hidden;">
           <img src="/img/team4.jpeg" style=" max-height: 280px;" />
           <div class="bg-gray-100">
-            <p class="text-center font-bold">teams name</p>
-            <p class="text-center">team position</p>
+            <p class="text-center font-bold">Mrs. Chika Nwamaka Edward, </p>
+            <p class="text-center">BSc; MSc </p>
 
           </div>
 
         </div>
+
+
+        <div class="border border-blue-500 rounded-xl" style="overflow: hidden;">
+          <img src="/img/team5.jpeg" style=" max-height: 280px;" />
+          <div class="bg-gray-100">
+            <p class="text-center font-bold">Mrs. Jane Nkeiruka Nwoke </p>
+            <p class="text-center">MSc </p>
+
+          </div>
+
+        </div>
+
+
+        
+
+
+        
       </div>
 
     </div>
