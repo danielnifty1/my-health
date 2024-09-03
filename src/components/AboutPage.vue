@@ -4,16 +4,16 @@
     <div class="md:p-10 p-5 rounded-xl">
       <img src="/img/about.jpg" class="rounded-xl" />
       <div class="mt-10">
-        <p class="text-2xl font-bold text-semibold text-center">CONTRIBUTION TO NATIONAL AND GLOBAL HEALTH</p>
-        <p>Prof. B. E. B. Nwoke has made some impressive contribution to national and global health. This has been
-          achieved through his innovative operational research and on the biology, epidemiology and control and
+        <p class="text-2xl font-bold text-semibold text-center ">CONTRIBUTION TO NATIONAL AND GLOBAL HEALTH</p>
+        <p class="text-[#7e7d7d]    text-[15px]">Myhealthleadership (B.E.B Nwoke Consultancy) has made some impressive contribution to national and global health. This has been
+          achieved through B.E.B Nwoke innovative operational research and on the biology, epidemiology and control and
           elimination of human parasitic diseases and their vectors/intermediate hosts, especially, neglected tropical
           diseases. His contribution as a member of the Steering Committee and Expert Committee in the control and
           elimination of these endemic diseases, no doubt, has contributed in no small measure in the control and or
           elimination of some of these endemic tropical diseases such as guinea worm, lymphatic filariasis, river
           blindness, soil transmitted helminths and schistosomiasis.
 
-        <p class="mt-5">
+        <p class="mt-5 text-[#7e7d7d]    text-[15px]">
           In 1986, National Onchocerciasis Control Programme (NOCP) appointed him a member of the Technical Advisory
           Committee (TAC) on technical and operational research. Later, the TAC was renamed Steering Committee (SC). The
           SC provided technical operational research and professional expertise for the programme implementation. NOCP
@@ -39,7 +39,7 @@
         </h2>
       </div>
 
-      <div class="text-[#7e7d7d] font-bold text-[15px]">
+      <div class="text-[#7e7d7d]    text-[15px] ">
         <p>
           Myhealthleadership is an invent of B.E.B Nwoke Consultancy Involved in operational research to identify enabling
           and hindering factors affecting the prevention and control of public health important endemic diseases, training
@@ -129,8 +129,8 @@
 
       <div class="pl-2 pr-2 text-center pb-10">
         <h2 class="text-[#7e7d7d] text-xl">
-          Prof. B. E. B. Nwoke has made some impressive contribution to national and global health. This has been achieved
-          through his innovative operational research and on the biology, epidemiology and control and elimination of
+          Myhealthleadership (B.E.B. Nwoke Consultancy) has made some impressive contribution to national and global health. This has been achieved
+          through  B.E.B Nwoke innovative operational research and on the biology, epidemiology and control and elimination of
           human parasitic diseases and their vectors/intermediate hosts, especially, neglected tropical diseases. His
           contribution as a member of the Steering Committee and Expert Committee in the control and elimination of these
           endemic diseases.
@@ -233,11 +233,13 @@
 
   </div>
 
-
+<div class="gid grid-cols-1 place-items-center" >
+  <p class="mt-10 text-4xl text-center font-bold   text-2xl text-[#3f3a64] ">About The CEO</p>
+</div>
 
 
   <!-- our success -->
-  <div class="grid md:grid-cols-2 gap-2 pt-20 md:pl-20 pl-5 md:pr-20 pr-2 pb-0 place-items-start">
+  <div class="grid md:grid-cols-2 gap-2  md:pl-20 pl-5 md:pr-20 pr-2 pb-0 place-items-start">
     <div class="grid grid-cols-1 gap-1 md:p-10 p-5 space-y-10 place-items-start">
       <div class="space-y-1">
         <h4 class="md:text-[15px] font-bold text-[#7e7d7d]">
@@ -248,7 +250,7 @@
         </h2>
       </div>
 
-      <section class="w3l-progress" id="progress">
+      <section class="w3l-progress text-[#7e7d7d]" id="progress">
         <div class="midd-w3">
           <div class="container py- lg-5 py-md-4 py-2">
             <div class="row align-items-center">
@@ -306,12 +308,10 @@
 
     <div class="mt-10">
       <h2 class="font-bold   text-2xl text-[#3f3a64]">
-        RESEARCH GRANT RECEIVED AND PUBLICATION
+        <!-- RESEARCH GRANT RECEIVED AND PUBLICATION -->
       </h2>
-      <p>Relevant and distinguished in his field of study, Prof. B. E. B. Nwoke has attended several professional
-        conferences, workshops and symposia and presented several key note/invited papers and conference papers. He is
-        Fellow/Member of the following learned societies:</p>
-      <div class="space-y-5">
+      <p class="text-[#7e7d7d]">Prof. Bertram Ekejiuba Bright Nwoke is from Umuariam, Obowo LGA in Imo State, Nigeria. He was a pioneer student of Institute of Management and Technology, Enugu where he obtained OND (Science Laboratory Technology) in 1975. He was one of the pioneer students of University of Jos who matriculated in 1976. He obtained B.Sc. (Zoology) Second Class Upper Division in 1979 and came out as the first best graduating student of Zoology, University of Jos. He also has to his credit an MSc degree in Applied Entomology & Parasitology (1981) and PhD degree in Medical Parasitology & Entomology (1987) all from the University of Jos. He is well trained in Total Quality Management and has a certificate on it.</p>
+      <!-- <div class="space-y-5 text-[#7e7d7d] mt-5">
         <p>
           <span class="fa fa-check text-green-500 font-bold"></span> Fellow, Academy of Science (FAS)<br />
         </p>
@@ -339,7 +339,7 @@
 
 
 
-      </div>
+      </div> -->
     </div>
 
 
@@ -353,7 +353,7 @@
 
     <div class="grid grid-cols-1 gap-1 md:p-10 p-2 md:space-y-10 space-y-5">
       <div class="space-y-1">
-        <h4 class="text-[15px] font-bold text-[#7e7d7d]">About us</h4>
+        <!-- <h4 class="text-[15px] font-bold text-[#7e7d7d]">About us</h4> -->
         <h2 class="font-bold md:text-4xl text-2xl text-[#3f3a64]">
           Prof Nwoke has been involved in the postgraduate external examination of many Institutions
         </h2>
@@ -366,7 +366,7 @@
         </p>
       </div>
 
-      <div class="space-y-6 text-sm md:text-xl">
+      <div class="space-y-6 text-sm md:text-xl text-[#7e7d7d]">
         <div class="flex space-x-2">
           <span class="fa fa-check bg-blue-900 p-1 rounded-full text-white"></span>
           <p class="font-bold text-[#3f3a64]">1. Federal University of Technology Owerri, (MSc & PhD)</p>
@@ -388,16 +388,16 @@
   <!-- accedemic experience -->
   <div class="grid md:grid-cols-2 md:pl-40 md:pr-40 pl-5 pr-5 mb-10 pt-10 md:space-x-10 place-items-start">
     <div class="grid space-y-5">
-      <p>UNIVERSITY ADMINISTRATIVE EXPERIENCE</p>
+      <!-- <p>UNIVERSITY ADMINISTRATIVE EXPERIENCE</p> -->
       <p class="text-4xl font-bold text-semibold">ACADEMIC CAREER</p>
-      <p>
+      <p class="text-[#7e7d7d]">
         Prof. B. E. B. Nwoke started his academic career in 1981 at the Etiti
         Campus of Imo State University, Nigeria as an Assistant Lecturer, and by
         God’s grace and dent of hard work; he was promoted to Professor of
         Public Health Parasitology and Entomology in 1994.
       </p>
 
-      <div class="space-y-5">
+      <div class="space-y-5 text-[#7e7d7d]">
         <p>
           <span class="fa fa-check text-green-500 font-bold"></span> Chairman, School of Biological Sc. Exams Board,
           1982-83 <br />
@@ -442,7 +442,7 @@
     </div>
 
 
-    <div class="space-y-5">
+    <div class="space-y-5 text-[#7e7d7d]">
 
 
       <p>

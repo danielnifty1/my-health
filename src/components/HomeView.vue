@@ -127,7 +127,21 @@ export default {
         </p>
       </div>
 
-      <div class="space-y-6 text-sm md:text-xl">
+      <div>
+        <p class="text-[#7e7d7d]">
+          Myhealthleadership is an invent of B.E.B Nwoke Consultancy Involved in operational research to identify enabling and hindering factors affecting the prevention and control of public health important endemic diseases, training and mobilization of personnel of implementing Ministries, Departments and Agencies (MDA) for effective implementation of the prevention and control strategies of endemic diseases
+        </p>
+        
+      <div class="flex md:justify-start justify-center mt-10">
+        <a  href="about"
+          class="bg-blue-900 text-[18px] leading-[30px] text-white font-bold rounded btn-style"
+        >
+          Discover More
+        </a>
+      </div>
+      </div>
+
+      <!-- <div class="space-y-6 text-sm md:text-xl">
         <div class="flex space-x-2">
           <span
             class="fa fa-check bg-blue-900 p-1 rounded-full text-white"
@@ -148,7 +162,7 @@ export default {
           ></span>
           <p class="font-bold text-[#3f3a64]">(a)	Nigeria Journal of Parasitology 1991</p>
         </div>
-      </div>
+      </div> -->
     </div>
 
     <div class="grid grid-cols-2 gap-4 ,md:p-20">

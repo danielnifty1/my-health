@@ -83,12 +83,12 @@
 
             <div class="text-[#7e7d7d] flex">
               <h1></h1>
-              <p>Phone Number : +1(21) 234 4567</p>
+              <p>Phone Number : +2348033273915</p>
             </div>
 
             <div class="text-[#7e7d7d] flex">
               <h1></h1>
-              <p>Email : info@example.com</p>
+              <p>Email : contact@myhealthleadership.com</p>
             </div>
           </div>
         </div>

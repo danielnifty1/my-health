@@ -38,9 +38,9 @@ const routes: Array<RouteRecordRaw> = [
 //   { path: "/home", name: "page.home", components: {default:HomeView, NavBar: NavBar,programslide:programslide,FooterPage: FooterFile } },
   { path: "/home", name: "page.home", components: {default:HomeView, NavBar: NavBar,FooterFile:FooterFile}, },
  
-    { path: "/services",name:"Services", components: { default: ServicePage, NavBar: NavBar, banner: BreadCrumb, FooterFile:FooterFile, } },
-   { path: "/contact",name:"Contact", components: { default: contactpage,NavBar: NavBar, banner: BreadCrumb, FooterFile: FooterFile, } },
-   { path: "/about",name:"About", components: { default: aboutpage,NavBar: NavBar, banner: BreadCrumb, FooterFile: FooterFile, } },
+    { path: "/services",name:"Our Services", components: { default: ServicePage, NavBar: NavBar, banner: BreadCrumb, FooterFile:FooterFile, } },
+   { path: "/contact",name:"Contact Us", components: { default: contactpage,NavBar: NavBar, banner: BreadCrumb, FooterFile: FooterFile, } },
+   { path: "/about",name:"About Us", components: { default: aboutpage,NavBar: NavBar, banner: BreadCrumb, FooterFile: FooterFile, } },
 //   { path: "/signup", components: { default: Regform, NavBar: HeaderFile, FooterPage: FooterFile,buttons:buttons } },
 //    { path: "/verify-email",name:"verify", components: { default: OtpPage, NavBar: HeaderFile, FooterPage: FooterFile, } },
 

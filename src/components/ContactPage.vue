@@ -17,7 +17,7 @@
           ></span>
           <div class="">
             <p class="font-bold">Phone Number</p>
-            <p class="text-blue-500">09076565465</p>
+            <p class="text-blue-500">+2348033273915</p>
           </div>
         </div>
 
@@ -73,7 +73,7 @@
     <div class="grid   mt-10  w-full ">
       <p class="text-gray-600 text-center">Write Us</p>
 
-      <p class="text-2xl md:text-4xl font-bold text-center text-blue-500 md:p-0 p-2 ">Don't hesitate to contact us <br> anytime with questions</p>
+      <p class="text-2xl md:text-4xl font-bold text-center text-blue-500 md:p-0 p-2 ">Ready to talk with our experts?    </p>
 
       <form class="form border-red-500 md:pl-24 md:pr-24 md:pt-10 pl-10 pr-10 mt-5">
         <div class="grid md:grid-cols-3  gap-3  mb-10">

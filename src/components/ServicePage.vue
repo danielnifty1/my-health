@@ -65,6 +65,10 @@
     </div>
   </div>
 
+  <div class="gid grid-cols-1 place-items-center" >
+  <p class="mt-10 text-4xl text-center font-bold   text-2xl text-[#3f3a64] ">More Services</p>
+</div>
+
   <div
     class="grid md:grid-cols-2 md:pl-40 md:pr-40 pr-5 pl-5  mb-10 pt-10 space-x-10 place-items-start"
   >
