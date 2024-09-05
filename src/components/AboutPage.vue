@@ -33,21 +33,25 @@
 
     <div class="grid grid-cols-1 gap-1 md:p-10 p-2 md:space-y-1 space-y-5 place-items-start">
       <div class="space-y-1">
-        <h4 class="text-[15px] font-bold text-[#7e7d7d]">About CEO</h4>
+        <h4 class="text-[15px] font-bold text-[#7e7d7d]">About Us</h4>
         <h2 class="font-bold  text-2xl text-[#3f3a64]">
-          CHIEF EXECUTIVE OFFICER (CEO): PROF. BERTRAM EKEJIUBA BRIGHT NWOKE, FAS
+          MYHEALTLEADERSHIP
         </h2>
       </div>
 
       <div class="text-[#7e7d7d] font-bold text-[15px]">
         <p>
-          Prof. Bertram Ekejiuba Bright Nwoke is from Umuariam, Obowo LGA in Imo State, Nigeria. He was a pioneer student
-          of Institute of Management and Technology, Enugu where he obtained OND (Science Laboratory Technology) in 1975.
-          He was one of the pioneer students of University of Jos who matriculated in 1976. He obtained B.Sc. (Zoology)
-          Second Class Upper Division in 1979 and came out as the first best graduating student of Zoology, University of
-          Jos. He also has to his credit an MSc degree in Applied Entomology & Parasitology (1981) and PhD degree in
-          Medical Parasitology & Entomology (1987) all from the University of Jos. He is well trained in Total Quality
-          Management and has a certificate on it.
+          Myhealthleadership is an invent of B.E.B Nwoke Consultancy Involved in operational research to identify enabling
+          and hindering factors affecting the prevention and control of public health important endemic diseases, training
+          and mobilization of personnel of implementing Ministries, Departments and Agencies (MDA) for effective
+          implementation of the prevention and control strategies of endemic diseases. Also, Care Consultancy is involved
+          in training and mobilization of villagers affected by these endemic diseases to stimulate community-ownership
+          and engagement/participation in the prevention and control of endemic diseases. It is committed to leadership
+          and ethical development through mentoring, training and grooming – to inculcate leadership personality and
+          strength of character of accountability, integrity, transparency, teamwork and ethical congruence. Care
+          Consultancy is further involved in training and mentoring students (both undergraduate and postgraduate) on
+          thematic academic areas like seminar writing and presentation, Dissertation and Thesis organization, reporting
+          and guide to internal/external examination as well as research grant proposal writing for funding.
         </p>
         <p class="mt-5">During his 12-month TDR/WHO Post-doctoral Fellow on Advance Epidemiological Field Research
           Training at WHO/Onchocerciasis Control Programme (OCP) in West Africa, Ouagadougou, Burkina Faso, Prof. Nwoke
@@ -58,29 +62,9 @@
 
       <div class="space-y-6 text-sm md:text-xl">
         <div class="space-y-1">
-
-          <h2 class="font-bold  text-2xl text-[#3f3a64] text-center">
-            Advance Epidemiological Field Research Training
-          </h2>
-
-          <div class="space-y-5">
+          <img src="/img/s2.jpg" class="rounded-xl">
 
 
-            <p>
-              <span class="fa fa-check text-green-500 font-bold"></span> Epidemiological Mapping of onchocerciasis<br />
-            </p>
-
-            <p>
-              <span class="fa fa-check text-green-500 font-bold"></span> Evaluation of the impact of aerial spraying of
-              insecticides,
-            </p>
-
-            <p>
-              <span class="fa fa-check text-green-500 font-bold"></span> Entomological evaluation and surveillance of
-              Onchocerciasis, <br />
-            </p>
-
-          </div>
         </div>
 
       </div>
@@ -155,6 +139,103 @@
     </div>
   </div>
 
+  <!-- OUR TEAM -->
+
+  <div class="md:p-10 p-5 rounded-xl grid grid-cols-1">
+    <div class="grid place-items-center">
+      <div class="rounded-full">
+        <h2 class="font-bold   text-2xl text-[#3f3a64] mt-5 text-center mb-5">
+          OUR TEAM
+        </h2>
+        <!-- <p class="text-center">CEO</p> -->
+        <img src="/img/ceo.jpg" class="rounded-full w-[250px] h-[250px]" />
+
+        <p class="text-center font-bold">Prof. B. E. B. Nwoke</p>
+        <p class="text-center">CEO</p>
+
+      </div>
+
+
+
+      <!-- =============== -->
+      <div class="bordedr border-blue -500 rounded-xl" style="overflow: hidden;">
+        <img src="/img/team6.jpeg" class="rounded-full w-[200px] h-[200px] border" />
+        <div class=" ">
+          <p class="text-center font-bold">Prof. Eunice A. Nwoke </p>
+          <p class="text-center">Vice CEO </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- =========== -->
+    </div>
+
+
+    <div class="grid md:grid-cols-3   place-items-center p-2 gap-4 space-y-5  mt-5 w-10/12 md:ml-[135px] ml-10">
+      <div class="  rounded-xl  " style="overflow: hidden; max-height: 350px;">
+        <img src="/img/team1.jpeg" class="rounded-full w-[200px] h-[200px] border" />
+        <div class="">
+          <p class="text-center font-bold">Ikenna Jachimike Nwoke</p>
+          <p class="text-center">BSc; MSc</p>
+
+        </div>
+
+      </div>
+
+      <div class=" rounded-xl h-94" style="overflow: hidden;max-height: 350px;">
+        <img src="/img/team2.jpeg" class="rounded-full w-[200px] h-[200px] border" />
+        <div class="">
+          <p class="text-center font-bold">Dr. Mrs. Ijeoma Ugochi Okeke</p>
+          <p class="text-center">MBBS</p>
+
+        </div>
+
+      </div>
+
+      <div class=" rounded-xl" style="overflow: hidden;">
+        <img src="/img/team3.jpeg" class="rounded-full w-[200px] h-[200px] border" />
+        <div class="">
+          <p class="text-center font-bold">Barr. Mrs. Chinonso Oluchi Nwigwe</p>
+          <p class="text-center">LLB; BL</p>
+
+        </div>
+
+      </div>
+    </div>
+    <!-- kkkkkkkkkkkkkkkkkkkkkk -->
+    <div class="grid md:grid-cols-2 place-items-center   w-full  ">
+
+
+      <div class=" rounded-xl md:ml-96 mt-5 " style="overflow: hidden;">
+        <img src="/img/team4.jpeg" class="rounded-full w-[200px] h-[200px] border" />
+        <div class="">
+          <p class="text-center font-bold">Mrs. Chika Nwamaka Edward, </p>
+          <p class="text-center">BSc; MSc </p>
+
+        </div>
+
+      </div>
+
+
+      <div class=" rounded-xl md:mr-60 mt-5" style="overflow: hidden;">
+        <img src="/img/team5.jpeg" class="rounded-full w-[200px] h-[200px] border" />
+        <div class="">
+          <p class="text-center font-bold">Mrs. Jane Nkeiruka Nwoke </p>
+          <p class="text-center">MSc </p>
+
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
   <!-- our success -->
   <div class="grid md:grid-cols-2 gap-2 pt-20 md:pl-20 pl-5 md:pr-20 pr-2 pb-0 place-items-start">
     <div class="grid grid-cols-1 gap-1 md:p-10 p-5 space-y-10 place-items-start">
@@ -220,134 +301,48 @@
           </div>
         </div>
       </section>
-      <div>
-        <h2 class="font-bold   text-2xl text-[#3f3a64]">
-          RESEARCH GRANT RECEIVED AND PUBLICATION
-        </h2>
-        <p>Relevant and distinguished in his field of study, Prof. B. E. B. Nwoke has attended several professional
-          conferences, workshops and symposia and presented several key note/invited papers and conference papers. He is
-          Fellow/Member of the following learned societies:</p>
-        <div class="space-y-5">
-          <p>
-            <span class="fa fa-check text-green-500 font-bold"></span> Fellow, Academy of Science (FAS)<br />
-          </p>
-
-          <p>
-            <span class="fa fa-check text-green-500 font-bold"></span> Fellow, Parasitology & Public Health Society of Nigeria
-          </p>
-          <p>
-            <span class="fa fa-check text-green-500 font-bold"></span> Fellow, Royal Society of Tropical Medicine & Hygiene UK
-          </p>
-
-          <p>
-            <span class="fa fa-check text-green-500 font-bold"></span> Fellow, Zoological Society of Nigeria
-          </p>
-          <p>
-            <span class="fa fa-check text-green-500 font-bold"></span> Fellow, Society for Environmental Health, Nigeria
-          </p>
-
-          <p>
-            <span class="fa fa-check text-green-500 font-bold"></span> Fellow, African Institute of Public Health Professionals
-          </p>
-          
-          
-
-        </div>
-      </div>
 
     </div>
 
-    <div class="md:p-10 p-5 rounded-xl grid grid-cols-1">
-      <div class="grid place-items-center">
-        <h2 class="font-bold   text-2xl text-[#3f3a64] mt-5 text-center mb-5">
-          OUR TEAM
-        </h2>
-        <!-- <p class="text-center">CEO</p> -->
-        <img src="/img/ceo.jpg" class="rounded-xl" />
+    <div class="mt-10">
+      <h2 class="font-bold   text-2xl text-[#3f3a64]">
+        RESEARCH GRANT RECEIVED AND PUBLICATION
+      </h2>
+      <p>Relevant and distinguished in his field of study, Prof. B. E. B. Nwoke has attended several professional
+        conferences, workshops and symposia and presented several key note/invited papers and conference papers. He is
+        Fellow/Member of the following learned societies:</p>
+      <div class="space-y-5">
+        <p>
+          <span class="fa fa-check text-green-500 font-bold"></span> Fellow, Academy of Science (FAS)<br />
+        </p>
 
-        <p class="text-center font-bold">Prof. B. E. B. Nwoke</p>
-        <p class="text-center">CEO</p>
+        <p>
+          <span class="fa fa-check text-green-500 font-bold"></span> Fellow, Parasitology & Public Health Society of
+          Nigeria
+        </p>
+        <p>
+          <span class="fa fa-check text-green-500 font-bold"></span> Fellow, Royal Society of Tropical Medicine & Hygiene
+          UK
+        </p>
 
+        <p>
+          <span class="fa fa-check text-green-500 font-bold"></span> Fellow, Zoological Society of Nigeria
+        </p>
+        <p>
+          <span class="fa fa-check text-green-500 font-bold"></span> Fellow, Society for Environmental Health, Nigeria
+        </p>
+
+        <p>
+          <span class="fa fa-check text-green-500 font-bold"></span> Fellow, African Institute of Public Health
+          Professionals
+        </p>
 
 
 
       </div>
-
-
-      <div class="grid grid-cols-2 border place-items-center p-2 gap-4 mt-5">
-
-        <div class="border border-blue-500 rounded-xl" style="overflow: hidden;">
-          <img src="/img/team6.jpeg" style=" max-height: 280px;" />
-          <div class="bg-gray-100">
-            <p class="text-center font-bold">Prof. Eunice A. Nwoke  </p>
-            <p class="text-center">Vice CEO </p>
-
-          </div>
-
-        </div>
-
-
-
-
-        <div class="border border-blue-500 rounded-xl  " style="overflow: hidden; max-height: 350px;">
-          <img src="/img/team1.jpeg" style=" max-height: 280px;" />
-          <div class="bg-gray-100">
-            <p class="text-center font-bold">Ikenna Jachimike Nwoke</p>
-            <p class="text-center">BSc; MSc</p>
-
-          </div>
-
-        </div>
-
-        <div class="border border-blue-500 rounded-xl h-94" style="overflow: hidden;max-height: 350px;">
-          <img src="/img/team2.jpeg" style=" max-height: 280px; overflow-y: hidden;" />
-          <div class="bg-gray-100">
-            <p class="text-center font-bold">Dr. Mrs. Ijeoma Ugochi Okeke</p>
-            <p class="text-center">MBBS</p>
-
-          </div>
-
-        </div>
-
-        <div class="border border-blue-500 rounded-xl" style="overflow: hidden;">
-          <img src="/img/team3.jpeg" style=" max-height: 280px;" />
-          <div class="bg-gray-100">
-            <p class="text-center font-bold">Barr. Mrs. Chinonso Oluchi Nwigwe</p>
-            <p class="text-center">LLB; BL</p>
-
-          </div>
-
-        </div>
-
-        <div class="border border-blue-500 rounded-xl" style="overflow: hidden;">
-          <img src="/img/team4.jpeg" style=" max-height: 280px;" />
-          <div class="bg-gray-100">
-            <p class="text-center font-bold">Mrs. Chika Nwamaka Edward, </p>
-            <p class="text-center">BSc; MSc </p>
-
-          </div>
-
-        </div>
-
-
-        <div class="border border-blue-500 rounded-xl" style="overflow: hidden;">
-          <img src="/img/team5.jpeg" style=" max-height: 280px;" />
-          <div class="bg-gray-100">
-            <p class="text-center font-bold">Mrs. Jane Nkeiruka Nwoke </p>
-            <p class="text-center">MSc </p>
-
-          </div>
-
-        </div>
-
-
-        
-
-
-        
-      </div>
-
     </div>
+
+
   </div>
 
   <!-- our success -->
@@ -446,76 +441,76 @@
       </div>
     </div>
 
-    
+
     <div class="space-y-5">
 
 
-        <p>
-          <span class="fa fa-check text-green-500 font-bold"></span> Dean, College of Sciences, 1995-97,<br />
-        </p>
-
-        <p>
-          <span class="fa fa-check text-green-500 font-bold"></span> Ag. Dean, College of Medicine & Health Sciences,
-          1997-99
-        </p>
-
-        <p>
-          <span class="fa fa-check text-green-500 font-bold"></span> Dean, College of Science, 1999-2000<br />
-        </p>
-
-
-
-        <!-- ================================== -->
-        <p>
-          <span class="fa fa-check text-green-500 font-bold"></span> Member,
-          University Taskforce on Accreditation, 1994-98 <br />
-        </p>
-        <p>
-          <span class="fa fa-check text-green-500 font-bold"></span> Member,
-          University Governing Council (Representing Congregation), 1997-1999<br />
-        </p>
-
-        <p>
-          <span class="fa fa-check text-green-500 font-bold"></span> Appointed
-          Acting Vice Chancellor, Imo State University Owerri by then Military
-          Governor, April-May, 1999
-        </p>
-
-        <p>
-          <span class="fa fa-check text-green-500 font-bold"></span> Head,
-          Department of Animal and Environmental, 2001-2002<br />
-        </p>
-
-        <p>
-          <span class="fa fa-check text-green-500 font-bold"></span> Deputy Vice Chancellor (Academic), 2004-2007
-          <br />
-        </p>
-
-        <p>
-          <span class="fa fa-check text-green-500 font-bold"></span> Dean, Faculty of Science, 2007-br />
-        </p>
-
-        <p>
-          <span class="fa fa-check text-green-500 font-bold"></span> Member, IMSU Teaching Hospital Board (Senate Rep.),
-          2008-2011 <br />
-        </p>
-
-        <p>
-          <span class="fa fa-check text-green-500 font-bold"></span> Acting Vice Chancellor, Imo State University Owerri,
-          June 2011 – Nov 2012 <br />
-        </p>
-
-        <p>
-          <span class="fa fa-check text-green-500 font-bold"></span> Dean, School of Postgraduate studies 2016 -
-          2018<br />
-        </p>
+      <p>
+        <span class="fa fa-check text-green-500 font-bold"></span> Dean, College of Sciences, 1995-97,<br />
+      </p>
 
       <p>
-        <span class="fa fa-check text-green-500 font-bold"></span> Deputy Vice Chancellor (Administration), 2018 -2020
-        <br />
+        <span class="fa fa-check text-green-500 font-bold"></span> Ag. Dean, College of Medicine & Health Sciences,
+        1997-99
+      </p>
+
+      <p>
+        <span class="fa fa-check text-green-500 font-bold"></span> Dean, College of Science, 1999-2000<br />
       </p>
 
 
-    </div>
-   
+
+      <!-- ================================== -->
+      <p>
+        <span class="fa fa-check text-green-500 font-bold"></span> Member,
+        University Taskforce on Accreditation, 1994-98 <br />
+      </p>
+      <p>
+        <span class="fa fa-check text-green-500 font-bold"></span> Member,
+        University Governing Council (Representing Congregation), 1997-1999<br />
+      </p>
+
+      <p>
+        <span class="fa fa-check text-green-500 font-bold"></span> Appointed
+        Acting Vice Chancellor, Imo State University Owerri by then Military
+        Governor, April-May, 1999
+      </p>
+
+      <p>
+        <span class="fa fa-check text-green-500 font-bold"></span> Head,
+        Department of Animal and Environmental, 2001-2002<br />
+      </p>
+
+      <p>
+        <span class="fa fa-check text-green-500 font-bold"></span> Deputy Vice Chancellor (Academic), 2004-2007
+        <br />
+      </p>
+
+      <p>
+        <span class="fa fa-check text-green-500 font-bold"></span> Dean, Faculty of Science, 2007-br />
+      </p>
+
+      <p>
+        <span class="fa fa-check text-green-500 font-bold"></span> Member, IMSU Teaching Hospital Board (Senate Rep.),
+        2008-2011 <br />
+      </p>
+
+      <p>
+        <span class="fa fa-check text-green-500 font-bold"></span> Acting Vice Chancellor, Imo State University Owerri,
+        June 2011 – Nov 2012 <br />
+      </p>
+
+      <p>
+        <span class="fa fa-check text-green-500 font-bold"></span> Dean, School of Postgraduate studies 2016 -
+        2018<br />
+    </p>
+
+    <p>
+      <span class="fa fa-check text-green-500 font-bold"></span> Deputy Vice Chancellor (Administration), 2018 -2020
+      <br />
+    </p>
+
+
+  </div>
+
 </div></template>
