@@ -7,7 +7,7 @@ import TestimonyView from "./testimonialView.vue";
   <!-- our success -->
   <div class="grid md:grid-cols-2 gap-2 pt-20 md:pl-20 pl-5 md:pr-20 pr-2 pb-0">
     <div class="md:p-10 p-5 rounded-xl">
-      <img src="/img/about.jpg" class="rounded-xl" />
+      <img src="/img/about.jpg" class="rounded-xl hover:-translate-y-1 hover:scale-110 duration-300" />
       <div class="mt-10">
         <p class="text-2xl font-bold text-semibold text-center">CONTRIBUTION TO NATIONAL AND GLOBAL HEALTH</p>
         <p>Prof. B. E. B. Nwoke has made some impressive contribution to national and global health. This has been

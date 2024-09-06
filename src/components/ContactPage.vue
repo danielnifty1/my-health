@@ -1,3 +1,19 @@
+<script setup lang="ts">
+import { reactive } from 'vue';
+
+
+const userInfo = reactive({
+  fullname: "",
+  email: "",
+
+  phone: "",
+  instagram: "",
+
+
+  // email: "",
+});
+</script>
+
 <template>
   <div class="grid md:grid-cols-2">
     <div class="grid p-10">
@@ -77,11 +93,12 @@
 
       <form class="form border-red-500 md:pl-24 md:pr-24 md:pt-10 pl-10 pr-10 mt-5">
         <div class="grid md:grid-cols-3  gap-3  mb-10">
-            <input class="rounded-xl p-3 text-gray-500" placeholder="name" >
-            <input class="rounded-xl p-2 text-gray-500" placeholder="Email" >
-            <input class="rounded-xl p-2 text-gray-500" placeholder="Subject" >
+            <input class="rounded-xl p-3 text-gray-500" placeholder="name" name="name" id="name">
+            <input class="rounded-xl p-2 text-gray-500" placeholder="Email" name="email" id="email">
+            <input class="rounded-xl p-2 text-gray-500" placeholder="Subject" name="subject" id="subject">
         </div>
-        <textarea class="w-full rounded-xl p-24" rows="3">
+        <textarea  class="w-full rounded-xl h-60 "    cols="30"
+        rows="5">
 
         </textarea>
 

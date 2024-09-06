@@ -37,13 +37,13 @@
         </div>
   
         <div class="mt-5 md:mt-0 hidden md:grid">
-          <img src="/img/img.jpg" class="rounded-xl" />
+          <img src="/img/img.jpg" class="rounded-xl hover:-translate-y-1 hover:scale-110 duration-300" />
         </div>
       </div>
   
       <div class="grid md:grid-cols-2 place-items-start md:space-x-10 md:P-24 mt-24 pb-10">
         <div class="mb-5 md:mt-0">
-          <img src="/img/img2.jpg" class="rounded-xl" />
+          <img src="/img/img2.jpg" class="rounded-xl hover:-translate-y-1 hover:scale-110 duration-300" />
         </div>
         <div class="grid grid-cols-1 space-y-5">
           <p class="font-bold text-blue-800 text-xl">What We Do</p>
