@@ -11,12 +11,12 @@
   transition: 0.3s ease-in;
     }
 
-    .storyContainer{
+    .storyContainerbc{
       position: relative;
       display: inline-block;
     }
 
-      .overlay-text {
+      .overlay-textbc {
       position: absolute;
       top: 67%; 
       left: 50%; 
@@ -158,3 +158,27 @@
     background-image: url(/img/map.png);
   }
   
+  .storyContainer{
+    position: relative;
+    display: inline-block;
+  }
+
+  .storyContainer img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+ 
+  .overlay-text {
+    
+    position: absolute;
+    top: 45%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background: linear-gradient(180deg, rgba(25, 9, 45, 0) 0%, #19092D 100%);
+ 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+  
+  }
