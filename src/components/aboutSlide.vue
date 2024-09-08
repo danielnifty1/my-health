@@ -43,7 +43,7 @@ export default {
         clickable: true,
       }"
       :modules="modules"
-      class="mySwiper md:w-[500px] w-80"
+      class="mySwiper md:w-[500px] w-80 pt-10"
     >
       <swiper-slide>
         <img src="/img/c1.jpg" class="rounded-xl  " />

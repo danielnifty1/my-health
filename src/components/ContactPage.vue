@@ -1,17 +1,40 @@
 <script setup lang="ts">
-import { reactive } from 'vue';
-
+import { reactive, ref } from "vue";
+import { useAuth } from "../composable/auth.composable";
+import { useAuthStore } from "../core/store";
 
 const userInfo = reactive({
-  fullname: "",
+  name: "",
   email: "",
-
-  phone: "",
-  instagram: "",
-
-
-  // email: "",
+  subject: "",
+  message: "",
 });
+
+const store = useAuthStore();
+const loading = ref(false);
+const disabled = ref(false);
+
+const proceed = async (): Promise<void> => {
+ const data={
+  email :userInfo.email,
+  name:userInfo.name,
+  subject:userInfo.subject,
+  message:userInfo.message
+
+  }
+  const [error, success] = await useAuth(store.userRegister(data), loading);
+  if (success || error) {
+      disabled.value = false;
+    }
+    if (success.value !== "") {
+      //   redirect to the signin page
+      setTimeout(() => {
+        window.location.href = "/successful";
+      }, 3000);
+    }
+
+}
+
 </script>
 
 <template>
@@ -77,39 +100,57 @@ const userInfo = reactive({
             height="400"
             frameborder="0"
             style="border: 0px"
-            
           ></iframe>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="bg-gray-200 grid grid-cols-1  ">
-
-    <div class="grid   mt-10  w-full ">
+  <div class="bg-gray-200 grid grid-cols-1">
+    <div class="grid mt-10 w-full">
       <p class="text-gray-600 text-center">Write Us</p>
 
-      <p class="text-2xl md:text-4xl font-bold text-center text-blue-500 md:p-0 p-2 ">Don't hesitate to contact us <br> anytime with questions</p>
+      <p
+        class="text-2xl md:text-4xl font-bold text-center text-blue-500 md:p-0 p-2"
+      >
+        Don't hesitate to contact us <br />
+        anytime with questions
+      </p>
 
-      <form class="form border-red-500 md:pl-24 md:pr-24 md:pt-10 pl-10 pr-10 mt-5">
-        <div class="grid md:grid-cols-3  gap-3  mb-10">
-            <input class="rounded-xl p-3 text-gray-500" placeholder="name" name="name" id="name">
-            <input class="rounded-xl p-2 text-gray-500" placeholder="Email" name="email" id="email">
-            <input class="rounded-xl p-2 text-gray-500" placeholder="Subject" name="subject" id="subject">
+      <form
+        class="form border-red-500 md:pl-24 md:pr-24 md:pt-10 pl-10 pr-10 mt-5"
+      >
+        <div class="grid md:grid-cols-3 gap-3 mb-10">
+          <input 
+          v-model="userInfo.name"
+            class="rounded-xl p-3 text-gray-500"
+            placeholder="name"
+            name="name"
+            id="name"
+          />
+          <input
+          v-model="userInfo.email"
+            class="rounded-xl p-2 text-gray-500"
+            placeholder="Email"
+            name="email"
+            id="email"
+          />
+          <input
+          v-model="userInfo.subject"
+            class="rounded-xl p-2 text-gray-500"
+            placeholder="Subject"
+            name="subject"
+            id="subject"
+          />
         </div>
-        <textarea  class="w-full rounded-xl h-60 "    cols="30"
-        rows="5">
-
-        </textarea>
+        <textarea v-model="userInfo.message" class="w-full rounded-xl h-60" cols="30" rows="5"> </textarea>
 
         <div class="grid mt-2 place-items-center mb-10">
-            <Button type="submit"  class="bg-blue-800 text-white p-2 rounded">
+          <Button  @click="proceed" type="submit" class="bg-blue-800 text-white p-2 rounded">
             Send Message
           </Button>
         </div>
-       
       </form>
     </div>
-
   </div>
 </template>

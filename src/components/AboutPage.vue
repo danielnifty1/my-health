@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import AboutSlide from "./aboutSlide.vue";
-import TestimonyView from "./testimonialView.vue";
+
 
 </script>
 <template>
@@ -66,7 +66,7 @@ import TestimonyView from "./testimonialView.vue";
       </div>
 
  
-           <AboutSlide />
+           <AboutSlide  />
           <!-- <img src="/img/s2.jpg" class="rounded-xl "> -->
 
 

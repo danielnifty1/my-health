@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import Banner from "./banner.vue";
-import TestimonyView from "./testimonialView.vue";
+
 
 // methods
 
