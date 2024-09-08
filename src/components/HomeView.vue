@@ -1,114 +1,47 @@
-<script lang="ts">
-import TestimonyView from "./testimonialView.vue";
+<script lang="ts" setup>
+import Banner from "./banner.vue";
 
-import { Swiper, SwiperSlide } from "swiper/vue";
 
-// Import Swiper styles
-import "swiper/css";
+// methods
 
-import "swiper/css/navigation";
+const mouseOver = () => {
+  // const cla=document.getElementsByClassName('overlay-text')
+  let usernameInput: HTMLDivElement = document.getElementById(
+    "overlay-text"
+  ) as HTMLDivElement;
+  //  usernameInput.style.display=""
 
-//   import './style.css';
-// import required modules
-import {
-  EffectCoverflow,
-  Autoplay,
-  Pagination,
-  Navigation,
-} from "swiper/modules";
+  usernameInput.style.display = "";
+};
+const mouseLeaveFn = () => {
+  // const cla=document.getElementsByClassName('overlay-text')
+  let usernameInput: HTMLDivElement = document.getElementById(
+    "overlay-text"
+  ) as HTMLDivElement;
+  usernameInput.style.display = "none";
+};
 
-export default {
-  components: {
-    Swiper,
-    SwiperSlide,
-  },
-  setup() {
-    return {
-      modules: [EffectCoverflow, Autoplay, Pagination, Navigation],
-    };
-  },
+const mouseOverb = () => {
+  // const cla=document.getElementsByClassName('overlay-textb')
+  let usernameInput: HTMLDivElement = document.getElementById(
+    "overlay-textb"
+  ) as HTMLDivElement;
+  //  usernameInput.style.display=""
+
+  usernameInput.style.display = "";
+};
+const mouseLeaveFnb = () => {
+  // const cla=document.getElementsByClassName('overlay-textb')
+  let usernameInput: HTMLDivElement = document.getElementById(
+    "overlay-textb"
+  ) as HTMLDivElement;
+  usernameInput.style.display = "none";
 };
 </script>
 
 <template>
   <!-- BANNER SECTION -->
-  <swiper
-    :slidesPerView="1"
-    :spaceBetween="0"
-    :autoplay="{
-      delay: 5500,
-      disableOnInteraction: false,
-    }"
-    :pagination="{
-      clickable: true,
-    }"
-    :modules="modules"
-    class="mySwiper grid md:h-[700px] h-[400px] bg-cover bg-no-repeat content-center"
-  >
-    <swiper-slide
-      class="grid md:h-[700px] h-[400px] bg-cover bg-no-repeat content-center"
-    >
-      <div
-        class="grid md:h-[700px] h-[400px] bg-cover bg-no-repeat content-center"
-        style="
-          background-image: linear-gradient(
-              rgba(151, 92, 198, 0.7),
-              rgba(61, 81, 187, 0.7)
-            ),
-            url(/img/banner1.jpg);
-          background-size: c;
-        "
-      >
-        <div class="grid grid-cols-1 gap-1 place-items-center mt-20 space-y-5">
-          <h2
-            class="text-2xl md:text-4xl font-bold text-center text-white mt-10 md:mt-0"
-          >
-          Take care of your body<br />It's the only place you have to live
-          </h2>
-          <p class="font-bold text-white pl-5 pr-5 text-center">
-            Take the first step to your journey to good health
-          </p>
-
-          <a href="contact"
-            class="bg-blue-900 text-[18px] leading-[30px] text-white font-bold rounded-full btn-style"
-          >
-            Ready to get start?
-          </a>
-        </div>
-      </div>
-    </swiper-slide>
-
-    <swiper-slide class="">
-      <div
-        class="grid md:h-[700px] h-[400px] bg-cover bg-no-repeat content-center"
-        style="
-          background-image: linear-gradient(
-              rgba(151, 92, 198, 0.7),
-              rgba(61, 81, 187, 0.7)
-            ),
-            url(/img/banner1.jpg);
-          background-size: c;
-        "
-      >
-        <div class="grid grid-cols-1 gap-1 place-items-center mt-20 space-y-5">
-          <h2
-            class="text-2xl md:text-4xl font-bold text-center text-white mt-10 md:mt-0"
-          >
-        Good health and good sense are two of life's <br />greatest blessings.
-          </h2>
-          <p class="font-bold text-white pl-5 pr-5 text-center">
-            Take the first step to your journey to success with us
-          </p>
-
-          <a href="contact"
-            class="bg-blue-900 text-[18px] leading-[30px] text-white font-bold rounded-full btn-style"
-          >
-            Ready to get start?
-          </a>
-        </div>
-      </div>
-    </swiper-slide>
-  </swiper>
+  <Banner />
   <!--  ABOUT SECTION -->
   <div
     class="grid md:grid-cols-2 gap-4 place-items-center pt-20 md:pl-20 pl-5 md:pr-20 pr-2 pb-0"
@@ -146,34 +79,94 @@ export default {
           <span
             class="fa fa-check bg-blue-900 p-1 rounded-full text-white"
           ></span>
-          <p class="font-bold text-[#3f3a64]">(a)	Angewandte Parasitologie (Germany), 1992</p>
+          <p class="font-bold text-[#3f3a64]">
+            (a) Angewandte Parasitologie (Germany), 1992
+          </p>
         </div>
 
         <div class="flex space-x-2">
           <span
             class="fa fa-check bg-blue-900 p-1 rounded-full text-white"
           ></span>
-          <p class="font-bold text-[#3f3a64]">(b)	African Health (UK) 1990 </p>
+          <p class="font-bold text-[#3f3a64]">(b) African Health (UK) 1990</p>
         </div>
 
         <div class="flex space-x-2">
           <span
             class="fa fa-check bg-blue-900 p-1 rounded-full text-white"
           ></span>
-          <p class="font-bold text-[#3f3a64]">(a)	Nigeria Journal of Parasitology 1991</p>
+          <p class="font-bold text-[#3f3a64]">
+            (a) Nigeria Journal of Parasitology 1991
+          </p>
         </div>
       </div> -->
     </div>
 
     <div class="grid grid-cols-2 gap-4 ,md:p-20">
-      <div class="rounded">
-        <img src="/img/a.jpg" class="rounded-xl" />
+      <div
+        class="rounded hover:-translate-y-1 hover:scale-110 duration-300"
+        @mouseover="mouseOver"
+        @mouseleave="mouseLeaveFn"
+      >
+        <!-- <img src="/img/a.jpg" class="rounded-xl" /> -->
+        <div class="storyContainer w-full h-full">
+          <img src="/img/a.jpg" alt="image" class="rounded-xl" />
+          <div class="overlay-text w-full" id="overlay-text">
+            <div class="w-full mt-96">
+              <h2>Bright</h2>
+              <div class="rating text-[#d29214]">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"> </i>
+              </div>
+              <div>
+                <span class="fa fa-quote-left"></span>
+                <p class="pl-5 text-sm pb-6">
+                  Join this fitness member, the best choice that I’ve. They’re
+                  very professional
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
       <div class="rounded space-y-5 mt-10">
-        <img src="/img/c1.jpg" class="rounded-xl" />
+        <div
+          class="storyContainer w-full h-full hover:-translate-y-1 hover:scale-110 duration-300"
+          @mouseover="mouseOverb"
+          @mouseleave="mouseLeaveFnb"
+        >
+          <div class="rounded space-y-5 mt-10">
+            <img src="/img/c1.jpg" class="rounded-xl" />
+            <img src="/img/c4.jpg" class="rounded-xl" />
+          </div>
 
-        <img src="/img/c4.jpg" class="rounded-xl" />
+          <div
+            class="overlay-text w-full"
+            id="overlay-textb"
+            style="display: none"
+          >
+            <div class="w-full mt-96">
+              <h2>Bright</h2>
+              <div class="rating text-[#d29214]">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"> </i>
+              </div>
+              <div>
+                <span class="fa fa-quote-left"></span>
+                <p class="pl-5 text-sm pb-6">
+                  Join this fitness member, the best choice that I’ve. They’re
+                  very professional
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -195,12 +188,18 @@ export default {
 
       <div class="text-[#7e7d7d] md:font-bold text-[15px]">
         <p>
-          Prof. B. E. B. Nwoke has strongly contributed to academic leadership and growth as well as stimulated superior and excellent research studies and learning in the University. He has been involved in external examination of postgraduate students (PhD and or Masters Degree) in 12 Universities and in the assessment of more than 50 colleagues to the ranks of Professor/Reader in Nigeria and abroad.
+          Prof. B. E. B. Nwoke has strongly contributed to academic leadership
+          and growth as well as stimulated superior and excellent research
+          studies and learning in the University. He has been involved in
+          external examination of postgraduate students (PhD and or Masters
+          Degree) in 12 Universities and in the assessment of more than 50
+          colleagues to the ranks of Professor/Reader in Nigeria and abroad.
         </p>
       </div>
 
       <div class="flex md:justify-start justify-center">
-        <a  href="about"
+        <a
+          href="about"
           class="bg-blue-900 text-[18px] leading-[30px] text-white font-bold rounded btn-style"
         >
           Discover More
@@ -218,7 +217,8 @@ export default {
         <h1
           class="md:md:text-2xl font-bold text-[#3f3a64] hover:text-green-900 hover:cursor-pointer text-center"
         >
-          Contribition<br> To Science
+          Contribition<br />
+          To Science
         </h1>
       </div>
 
@@ -229,7 +229,8 @@ export default {
         <h1
           class="md:text-2xl font-bold text-[#3f3a64] hover:text-green-900 hover:cursor-pointer text-center"
         >
-        Contribition<br> To Community
+          Contribition<br />
+          To Community
         </h1>
       </div>
 
@@ -240,7 +241,8 @@ export default {
         <h1
           class="md:text-2xl font-bold text-[#3f3a64] hover:text-green-900 hover:cursor-pointer text-center"
         >
-        Contribition<br> To Government
+          Contribition<br />
+          To Government
         </h1>
       </div>
 
@@ -251,7 +253,8 @@ export default {
         <h1
           class="md:text-2xl font-bold text-[#3f3a64] hover:text-green-900 hover:cursor-pointer text-center"
         >
-        Contribition<br> To Global Health
+          Contribition<br />
+          To Global Health
         </h1>
       </div>
     </div>
@@ -268,9 +271,9 @@ export default {
     <div
       class="grid md:grid-cols-3 gap-4 place-items-center md:p-10 space-y-10 md:space-y-0"
     >
-      <div class="storyContainer w-full">
+      <div class="storyContainerbc w-full  hover:-translate-y-1 hover:scale-110 duration-300">
         <img src="/img/s1.jpg" alt="image" class="rounded-xl" />
-        <div class="overlay-text w-full">
+        <div class="overlay-textbc w-full">
           <h2
             class="p-2 bg-white rounded text-center text-xl font-bold text-[#3f3a64]"
           >
@@ -280,63 +283,70 @@ export default {
           <div class="w-full"></div>
         </div>
         <div class="grid grid-cols-1 gap-4 place-items-center">
-          <p class="md:mt-10 mt-20  text-center text-[#7e7d7d]">
-            The science of protecting and improving the health of people and their communities
+          <p class="md:mt-10 mt-20 text-center text-[#7e7d7d]">
+            The science of protecting and improving the health of people and
+            their communities
           </p>
 
-          <a href="services"
+          <a
+            href="services"
             class="text-[#3f3a64] font-bold hover:cursor-pointer hover:text-blue-900"
           >
             Learn More
-        </a>
+          </a>
         </div>
       </div>
 
-      <div class="storyContainer w-full">
+      <div class="storyContainerbc w-full  hover:-translate-y-1 hover:scale-110 duration-300" >
         <img src="/img/s2.jpg" alt="image" class="rounded-xl" />
-        <div class="overlay-text w-full">
+        <div class="overlay-textbc w-full">
           <h2
             class="p-2 bg-white rounded text-center text-xl font-bold text-[#3f3a64]"
           >
-           Leadership
+            Leadership
           </h2>
 
           <div class="w-full"></div>
         </div>
         <div class="grid grid-cols-1 gap-4 place-items-center">
           <p class="mt-10 text-center text-[#7e7d7d]">
-            influencing and motivating medical personnel to contribute to the success and effectiveness of medicine, patient care, and health care practices
+            influencing and motivating medical personnel to contribute to the
+            success and effectiveness of medicine, patient care, and health care
+            practices
           </p>
 
-          <a href="services"
+          <a
+            href="services"
             class="text-[#3f3a64] font-bold hover:cursor-pointer hover:text-blue-900"
           >
             Learn More
-        </a>
+          </a>
         </div>
       </div>
 
-      <div class="storyContainer w-full">
+      <div class="storyContainerbc w-full  hover:-translate-y-1 hover:scale-110 duration-300">
         <img src="/img/s3.jpg" alt="image" class="rounded-xl" />
-        <div class="overlay-text w-full">
+        <div class="overlay-textbc w-full">
           <h2
             class="p-2 bg-white rounded text-center text-xl font-bold text-[#3f3a64]"
           >
-          Ethical Development
+            Ethical Development
           </h2>
 
           <div class="w-full"></div>
         </div>
         <div class="grid grid-cols-1 gap-4 place-items-center">
           <p class="mt-10 text-center text-[#7e7d7d]">
-            focuses on the emergence, change, and understanding of morality from early childhood through adulthood
+            focuses on the emergence, change, and understanding of morality from
+            early childhood through adulthood
           </p>
 
-          <a href="services"
+          <a
+            href="services"
             class="text-[#3f3a64] font-bold hover:cursor-pointer hover:text-blue-900"
           >
             Learn More
-        </a>
+          </a>
         </div>
       </div>
     </div>
@@ -356,9 +366,11 @@ export default {
   </div>
 
   <!-- our success -->
-  <div class="grid md:grid-cols-2 gap-2 pt-20 md:pl-20 pl-5 md:pr-20 pr-2 pb-0 place-items-start">
+  <div
+    class="grid md:grid-cols-2 gap-2 pt-20 md:pl-20 pl-5 md:pr-20 pr-2 pb-0 place-items-start"
+  >
     <div class="md:p-10 p-5 rounded-xl">
-      <img src="/img/ceo.jpg" class="rounded-xl" />
+      <img src="/img/ceo.jpg" class="rounded-xl  hover:-translate-y-1 hover:scale-110 duration-300" />
     </div>
 
     <div class="grid grid-cols-1 gap-1 md:p-10 p-5 space-y-10">
@@ -367,19 +379,28 @@ export default {
           YOUR SUCCESS IS OUR SUCCESS
         </h4>
         <h2 class="font-bold md:text-2xl text-2xl text-[#3f3a64]">
-          CHIEF EXECUTIVE OFFICER (CEO): PROF. BERTRAM EKEJIUBA BRIGHT NWOKE, FAS 
+          CHIEF EXECUTIVE OFFICER (CEO): PROF. BERTRAM EKEJIUBA BRIGHT NWOKE,
+          FAS
         </h2>
       </div>
 
       <p>
-          Prof. Bertram Ekejiuba Bright Nwoke is from Umuariam, Obowo LGA in Imo State, Nigeria. He was a pioneer student of Institute of Management and Technology, Enugu where he obtained OND (Science Laboratory Technology) in 1975. He was one of the pioneer students of University of Jos who matriculated in 1976. He obtained B.Sc. (Zoology) Second Class Upper Division in 1979 and came out as the first best graduating student of Zoology, University of Jos. He also has to his credit an MSc degree in Applied Entomology & Parasitology (1981) and PhD degree in Medical Parasitology & Entomology (1987) all from the University of Jos. He is well trained in Total Quality Management and has a certificate on it.... <a href="about" clas="font-bold text-blue-500 text-2xl ">Read More</a>
-        </p>
-
-      
+        Prof. Bertram Ekejiuba Bright Nwoke is from Umuariam, Obowo LGA in Imo
+        State, Nigeria. He was a pioneer student of Institute of Management and
+        Technology, Enugu where he obtained OND (Science Laboratory Technology)
+        in 1975. He was one of the pioneer students of University of Jos who
+        matriculated in 1976. He obtained B.Sc. (Zoology) Second Class Upper
+        Division in 1979 and came out as the first best graduating student of
+        Zoology, University of Jos. He also has to his credit an MSc degree in
+        Applied Entomology & Parasitology (1981) and PhD degree in Medical
+        Parasitology & Entomology (1987) all from the University of Jos. He is
+        well trained in Total Quality Management and has a certificate on it....
+        <a href="about" clas="font-bold text-blue-500 text-2xl ">Read More</a>
+      </p>
     </div>
   </div>
 
   <!-- Testimony -->
 
-  <TestimonyView />
+  <!-- <TestimonyView /> -->
 </template>
