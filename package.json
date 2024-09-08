@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@kyvg/vue3-notification": "^3.3.0",
     "pinia": "^2.1.7",
     "swiper": "^11.1.5",
     "vue": "^3.4.31",
