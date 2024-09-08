@@ -1,8 +1,13 @@
+<script setup lang="ts">
+import AboutSlide from "./aboutSlide.vue";
+
+
+</script>
 <template>
   <!-- our success -->
   <div class="grid md:grid-cols-2 gap-2 pt-20 md:pl-20 pl-5 md:pr-20 pr-2 pb-0">
     <div class="md:p-10 p-5 rounded-xl">
-      <img src="/img/about.jpg" class="rounded-xl" />
+      <img src="/img/about.jpg" class="rounded-xl hover:-translate-y-1 hover:scale-110 duration-300" />
       <div class="mt-10">
         <p class="text-2xl font-bold text-semibold text-center ">CONTRIBUTION TO NATIONAL AND GLOBAL HEALTH</p>
         <p class="text-[#7e7d7d]    text-[15px]">Myhealthleadership (B.E.B Nwoke Consultancy) has made some impressive contribution to national and global health. This has been
@@ -60,14 +65,7 @@
           include: </p>
       </div>
 
-      <div class="space-y-6 text-sm md:text-xl">
-        <div class="space-y-1">
-          <img src="/img/s2.jpg" class="rounded-xl">
-
-
-        </div>
-
-      </div>
+      <AboutSlide  />
     </div>
   </div>
 
@@ -143,22 +141,23 @@
 
   <div class="md:p-10 p-5 rounded-xl grid grid-cols-1">
     <div class="grid place-items-center">
-      <div class="rounded-full">
-        <h2 class="font-bold   text-2xl text-[#3f3a64] mt-5 text-center mb-5">
+      <h2 class="font-bold   text-2xl text-[#3f3a64] mt-5 text-center mb-5">
           OUR TEAM
         </h2>
+      <div class="rounded-full hover:-translate-y-1 hover:scale-110 duration-300">
+       
         <!-- <p class="text-center">CEO</p> -->
-        <img src="/img/ceo.jpg" class="rounded-full w-[250px] h-[250px]" />
+        <img src="/img/ceo.jpg" class="rounded-full w-[250px] h-[250px ]" />
 
         <p class="text-center font-bold">Prof. B. E. B. Nwoke</p>
-        <p class="text-center">CEO</p>
+        <p class="text-center mb-10">CEO</p>
 
       </div>
 
 
 
       <!-- =============== -->
-      <div class="bordedr border-blue -500 rounded-xl" style="overflow: hidden;">
+      <div class="bordedr border-blue -500 rounded-xl hover:-translate-y-1 hover:scale-110 duration-300" style="overflow: hidden;">
         <img src="/img/team6.jpeg" class="rounded-full w-[200px] h-[200px] border" />
         <div class=" ">
           <p class="text-center font-bold">Prof. Eunice A. Nwoke </p>
@@ -173,8 +172,8 @@
     </div>
 
 
-    <div class="grid md:grid-cols-3   place-items-center p-2 gap-4 space-y-5  mt-5 w-10/12 md:ml-[135px] ml-10">
-      <div class="  rounded-xl  " style="overflow: hidden; max-height: 350px;">
+    <div class="grid md:grid-cols-3    place-items-center p-2 gap-4 space-y-5  mt-5 w-10/12 md:ml-[135px] ml-10">
+      <div class="  rounded-xl hover:-translate-y-1 hover:scale-110 duration-300  " style="overflow: hidden; max-height: 350px;">
         <img src="/img/team1.jpeg" class="rounded-full w-[200px] h-[200px] border" />
         <div class="">
           <p class="text-center font-bold">Ikenna Jachimike Nwoke</p>
@@ -184,7 +183,7 @@
 
       </div>
 
-      <div class=" rounded-xl h-94" style="overflow: hidden;max-height: 350px;">
+      <div class=" rounded-xl hover:-translate-y-1 hover:scale-110 duration-300 h-94" style="overflow: hidden;max-height: 350px;">
         <img src="/img/team2.jpeg" class="rounded-full w-[200px] h-[200px] border" />
         <div class="">
           <p class="text-center font-bold">Dr. Mrs. Ijeoma Ugochi Okeke</p>
@@ -194,10 +193,10 @@
 
       </div>
 
-      <div class=" rounded-xl" style="overflow: hidden;">
+      <div class=" rounded-xl hover:-translate-y-1 hover:scale-110 duration-300" style="overflow: hidden;">
         <img src="/img/team3.jpeg" class="rounded-full w-[200px] h-[200px] border" />
         <div class="">
-          <p class="text-center font-bold">Barr. Mrs. Chinonso Oluchi Nwigwe</p>
+          <p class="text-start font-bold">Barr. Mrs. Chinonso Oluchi Nwigwe</p>
           <p class="text-center">LLB; BL</p>
 
         </div>
@@ -208,7 +207,7 @@
     <div class="grid md:grid-cols-2 place-items-center   w-full  ">
 
 
-      <div class=" rounded-xl md:ml-96 mt-5 " style="overflow: hidden;">
+      <div class=" rounded-xl hover:-translate-y-1 hover:scale-110 duration-300 md:ml-96 mt-5 " style="overflow: hidden;">
         <img src="/img/team4.jpeg" class="rounded-full w-[200px] h-[200px] border" />
         <div class="">
           <p class="text-center font-bold">Mrs. Chika Nwamaka Edward, </p>
@@ -219,7 +218,7 @@
       </div>
 
 
-      <div class=" rounded-xl md:mr-60 mt-5" style="overflow: hidden;">
+      <div class=" rounded-xl hover:-translate-y-1 hover:scale-110 duration-300 md:mr-60 mt-5" style="overflow: hidden;">
         <img src="/img/team5.jpeg" class="rounded-full w-[200px] h-[200px] border" />
         <div class="">
           <p class="text-center font-bold">Mrs. Jane Nkeiruka Nwoke </p>
@@ -232,7 +231,6 @@
 
 
   </div>
-
 <div class="gid grid-cols-1 place-items-center" >
   <p class="mt-10 text-4xl text-center font-bold   text-2xl text-[#3f3a64] ">About The CEO</p>
 </div>
@@ -348,7 +346,7 @@
   <!-- our success -->
   <div class="grid md:grid-cols-2 gap-2 pt-20 md:pl-20 pl-5 md:pr-20 pr-2 pb-0">
     <div class="md:p-10 p-5 rounded-xl">
-      <img src="/img/about.jpg" class="rounded-xl" />
+      <img src="/img/about.jpg" class="rounded-xl  hover:-translate-y-1 hover:scale-110 duration-300" />
     </div>
 
     <div class="grid grid-cols-1 gap-1 md:p-10 p-2 md:space-y-10 space-y-5">
