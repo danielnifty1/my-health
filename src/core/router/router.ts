@@ -34,7 +34,7 @@ const FooterFile=()=>import("../../components/FooterFile.vue");
 
 
 const routes: Array<RouteRecordRaw> = [
-  { path: "/", redirect: "/home" },
+  { path: "/", redirect: "" },
 //   { path: "/home", name: "page.home", components: {default:HomeView, NavBar: NavBar,programslide:programslide,FooterPage: FooterFile } },
   { path: "/home", name: "page.home", components: {default:HomeView, NavBar: NavBar,FooterFile:FooterFile}, },
  

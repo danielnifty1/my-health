@@ -8,7 +8,7 @@ import { ref } from "vue";
 
 let open = ref(false);
 let Links = [
-  { name: "Home", link: "home" },
+  { name: "Home", link: "/" },
   { name: "About", link: "about" },
   { name: "Services", link: "services" },
   { name: "Contact", link: "contact" },
