@@ -104,23 +104,16 @@ const mouseLeaveFnb = () => {
 
     <div class="grid grid-cols-2 gap-4 ,md:p-20">
       <div
-        class="rounded hover:-translate-y-1 hover:scale-110 duration-300"
+        class="rounded hover:rounded-sm-0 hover:-translate-y-1 hover:scale-110 duration-300"
         @mouseover="mouseOver"
         @mouseleave="mouseLeaveFn"
       >
         <!-- <img src="/img/a.jpg" class="rounded-xl" /> -->
         <div class="storyContainer w-full h-full">
-          <img src="/img/a.jpg" alt="image" class="rounded-xl" />
-          <div class="overlay-text w-full" id="overlay-text">
-            <div class="w-full mt-96">
-              <h2>Bright</h2>
-              <div class="rating text-[#d29214]">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"> </i>
-              </div>
+          <img src="/img/a.jpg" alt="image" class="rounded-xl hover:rounded-sm" />
+          <div class="overlay-text w-full md:grid hidden" id="overlay-text"  style="display:none">
+            <div class="w-full mt-[270px]">
+           
               <div>
                 <span class="fa fa-quote-left"></span>
                 <p class="pl-5 text-sm pb-6">
@@ -144,19 +137,12 @@ const mouseLeaveFnb = () => {
           </div>
 
           <div
-            class="overlay-text w-full"
+            class="overlay-text w-full md:grid hidden"
             id="overlay-textb"
-            style="display: none"
+            style="display:none"
           >
             <div class="w-full mt-96">
-              <h2>Bright</h2>
-              <div class="rating text-[#d29214]">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"> </i>
-              </div>
+            
               <div>
                 <span class="fa fa-quote-left"></span>
                 <p class="pl-5 text-sm pb-6">
@@ -175,13 +161,13 @@ const mouseLeaveFnb = () => {
     class="grid md:grid-cols-2 gap-4 place-items-center md:pl-20 pl-5 md:pr-20 pr-2 pb-0 bg-gray-100"
   >
     <div
-      class="grid grid-cols-1 gap-1 md:p-10 pt-10 md:pt-0 md:space-y-10 space-y-5"
+      class="grid grid-cols-1 gap-1 md:p-10 pt-10 md:pt-0 md:space-y-10 space-y-2"
     >
       <div class="space-y-1">
         <h4 class="md:text-[15px] font-bold text-[#7e7d7d]">
           TOP UNIVERSITY ATTENDED
         </h4>
-        <h2 class="font-bold md:text-2xl text-2xl text-[#3f3a64]">
+        <h2 class="font-bold md:text-2xl text-sm text-[#3f3a64]">
           CONTRIBUTIONS TO THE GROWTH AND DEVELOPMENT OF SCIENCE
         </h2>
       </div>
@@ -373,12 +359,12 @@ const mouseLeaveFnb = () => {
       <img src="/img/ceo.jpg" class="rounded-xl  hover:-translate-y-1 hover:scale-110 duration-300" />
     </div>
 
-    <div class="grid grid-cols-1 gap-1 md:p-10 p-5 space-y-10">
+    <div class="grid grid-cols-1 gap-1 md:p-10 p-5 md:space-y-10 space-y-2">
       <div class="space-y-1">
         <h4 class="md:text-[15px] font-bold text-[#7e7d7d]">
           YOUR SUCCESS IS OUR SUCCESS
         </h4>
-        <h2 class="font-bold md:text-2xl text-2xl text-[#3f3a64]">
+        <h2 class="font-bold md:text-2xl text-sm text-[#3f3a64]">
           CHIEF EXECUTIVE OFFICER (CEO): PROF. BERTRAM EKEJIUBA BRIGHT NWOKE,
           FAS
         </h2>
