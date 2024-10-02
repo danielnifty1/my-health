@@ -15,7 +15,7 @@ class AuthService {
    */
   
     async userRegister(data: ContactUs): Promise<any> {
-        const response = await this.request.post("/user/contactus", data, {});
+        const response = await this.request.post("v1/user/contactus", data, {});
         return response;
       }
 
