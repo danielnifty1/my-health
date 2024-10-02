@@ -1,3 +1,72 @@
+<script setup lang="ts">
+import { reactive, ref } from "vue";
+import { useAuth } from "../composable/auth.composable";
+import { useRoute } from "vue-router";
+import { useAuthStore } from "../core/store";
+
+const route = useRoute();
+const store = useAuthStore();
+const loading = ref(false);
+const disabled = ref(false);
+
+const userInfo = reactive({
+  name: "",
+  email: "",
+  subject: "",
+  message: "",
+});
+
+
+const errorvalue=reactive({
+networkerror:""
+
+})
+
+
+const proceed = async () => {
+
+  let loader = document.getElementsByClassName ('loader') as HTMLCollectionOf<HTMLElement>;
+    if (loader.length != 0) {
+  loader[0].style.display = "";
+}
+
+const data = {
+    email: userInfo.email as string,
+    name: userInfo.name as string,
+    subject: userInfo.subject as string,
+    message: userInfo.message as string,
+}
+
+const [error, success] = await useAuth(store.userRegister(data), loading);
+if (success || error) {
+      disabled.value = false;
+      if (loader.length != 0) {
+  loader[0].style.display = "none";
+}
+    }
+    if (success.value !== "") {
+      //   redirect to the signin page
+      
+      setTimeout(() => {
+        window.location.href = "/successful";
+      }, 3000);
+
+
+    }
+       
+    if(error.value!==""){
+      // alert(error.value)
+      errorvalue.networkerror="there was an Error, kindly Trying again later"
+    }
+  
+
+
+
+}
+
+
+</script>
+
 <template>
   <div class="grid md:grid-cols-2">
     <div class="grid p-10">
@@ -61,38 +130,46 @@
             height="400"
             frameborder="0"
             style="border: 0px"
-            
           ></iframe>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="bg-gray-200 grid grid-cols-1  ">
-
-    <div class="grid   mt-10  w-full ">
+  <div class="bg-gray-200 grid grid-cols-1">
+    <div class="grid mt-10 w-full">
       <p class="text-gray-600 text-center">Write Us</p>
 
-      <p class="text-2xl md:text-4xl font-bold text-center text-blue-500 md:p-0 p-2 ">Ready to talk with our experts?    </p>
+      <p
+        class="text-2xl md:text-4xl font-bold text-center text-blue-500 md:p-0 p-2"
+      >
+        Ready to talk with our experts?
+      </p>
 
-      <form class="form border-red-500 md:pl-24 md:pr-24 md:pt-10 pl-10 pr-10 mt-5">
-        <div class="grid md:grid-cols-3  gap-3  mb-10">
-            <input class="rounded-xl p-3 text-gray-500" placeholder="name" >
-            <input class="rounded-xl p-2 text-gray-500" placeholder="Email" >
-            <input class="rounded-xl p-2 text-gray-500" placeholder="Subject" >
+      <div
+        class="form border-red-500 md:pl-24 md:pr-24 md:pt-10 pl-10 pr-10 mt-5"
+      >
+        <div class="grid md:grid-cols-3 gap-3 mb-10">
+          <input
+            v-model="userInfo.name"
+            class="rounded-xl p-3 text-gray-500"
+            placeholder="name"
+          />
+          <input v-model="userInfo.email" class="rounded-xl p-2 text-gray-500" placeholder="Email" />
+          <input v-model="userInfo.subject" class="rounded-xl p-2 text-gray-500" placeholder="Subject" />
         </div>
-        <textarea class="w-full rounded-xl p-24" rows="3">
-
-        </textarea>
+        <textarea v-model="userInfo.message" class="w-full rounded-xl p-2 h-24" rows="3"> </textarea>
 
         <div class="grid mt-2 place-items-center mb-10">
-            <Button type="submit"  class="bg-blue-800 text-white p-2 rounded">
-            Send Message
+          <Button
+           @click="proceed"
+          
+          type="submit" class="bg-blue-800 text-white p-2 rounded">
+            Send Message 
+            <span id="loader" class="fa fa-spin fa-spinner loader" style="display:none;"> </span>
           </Button>
         </div>
-       
-      </form>
+      </div>
     </div>
-
   </div>
 </template>

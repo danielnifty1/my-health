@@ -13,8 +13,9 @@ class AuthService {
    * user register data.email,data.firstname.data.lastname,data.phone and data.password
    * @param {*} data
    */
+  
     async userRegister(data: ContactUs): Promise<any> {
-        const response = await this.request.post("/user/booking", data, {});
+        const response = await this.request.post("/user/contactus", data, {});
         return response;
       }
 
