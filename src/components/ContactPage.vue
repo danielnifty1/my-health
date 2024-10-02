@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { reactive, ref } from "vue";
 import { useAuth } from "../composable/auth.composable";
-import { useRoute } from "vue-router";
+ 
 import { useAuthStore } from "../core/store";
 
-const route = useRoute();
+ 
 const store = useAuthStore();
 const loading = ref(false);
 const disabled = ref(false);
