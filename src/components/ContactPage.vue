@@ -17,8 +17,8 @@ const userInfo = reactive({
 });
 
 
-const errorvalue=reactive({
-networkerror:""
+const Responsevalue=reactive({
+networkvalue:""
 
 })
 
@@ -26,6 +26,8 @@ networkerror:""
 const proceed = async () => {
 
   let loader = document.getElementsByClassName ('loader') as HTMLCollectionOf<HTMLElement>;
+    let errorid = document.getElementById ('errorid') as HTMLElement
+  
     if (loader.length != 0) {
   loader[0].style.display = "";
 }
@@ -47,16 +49,20 @@ if (success || error) {
     if (success.value !== "") {
       //   redirect to the signin page
       
-      setTimeout(() => {
-        window.location.href = "/successful";
-      }, 3000);
+     Responsevalue.networkvalue="Message Sent successfully, you will be responded to shortly"
+ errorid.style.color="green"
+ userInfo.email=" "
+ userInfo.message=" "
+ userInfo.name=" "
+ userInfo.subject=" "
 
 
     }
        
     if(error.value!==""){
       // alert(error.value)
-      errorvalue.networkerror="there was an Error, kindly Trying again later"
+     Responsevalue.networkvalue="there was an Error, kindly Trying again later"
+     errorid.style.color="red"
     }
   
 
@@ -145,7 +151,7 @@ if (success || error) {
       >
         Ready to talk with our experts?
       </p>
-
+      <p id="errorid" class="md:mt-10 text-center text-sm text-red-500 font-bold"> {{Responsevalue.networkvalue}}</p>
       <div
         class="form border-red-500 md:pl-24 md:pr-24 md:pt-10 pl-10 pr-10 mt-5"
       >
