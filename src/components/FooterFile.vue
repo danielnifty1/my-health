@@ -37,9 +37,9 @@
       <!-- about -->
       <div class="grid md:grid-cols-2 gap-4 space-y-10 md:space-y-0">
         <div classs="space-y-10">
-          <div class="flex space-x-5 pb-">
-            <img src="/img/rehh.png" class="w-4/12" />
-            <div class="text-center namecenter">
+          <div class="md:flex space-x-5 grid grid-cols-1 place-items-center">
+            <img src="/img/rehh.png" class="md:w-4/12 w-2/12" />
+            <div class="text-center namecenter md:grid hidden">
               <h1 class="text-2xl text-white font-bold" id="namecenter">
                 My Health
               </h1>

@@ -56,11 +56,11 @@ function scrollFunction() {
       <div class="flex items-center">
         <ul class="flex md:ml-20">
           <li>
-            <router-link to="/" class="flex items-center">
+            <router-link to="/" class="md:flex items-center grid grid-cols-2">
               <span class="md:py-1 md:px-1 md:mr-1">
-                <img src="/img/rehh.png" class="md:w-24 px-2 w-6/6" />
+              <img src="/img/rehh.png" class="md:w-24 px-2 w-2/6" />
               </span>
-              <div class="text-center namecenter">
+              <div class="text-center namecenter hidden md:grid">
                 <h1 class="text-[24px] text-white font-bold" id="namecenter">
                   My Health
                 </h1>
