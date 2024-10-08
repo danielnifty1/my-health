@@ -38,7 +38,7 @@
       <div class="grid md:grid-cols-2 gap-4 space-y-10 md:space-y-0">
         <div classs="space-y-10">
           <div class="flex space-x-5 pb-">
-            <img src="/img/reh.png" class="w-2/12" />
+            <img src="/img/rehh.png" class="w-4/12" />
             <div class="text-center namecenter">
               <h1 class="text-2xl text-white font-bold" id="namecenter">
                 My Health

@@ -58,7 +58,7 @@ function scrollFunction() {
           <li>
             <router-link to="/" class="flex items-center">
               <span class="md:py-1 md:px-1 md:mr-1">
-                <img src="/img/reh.png" class="md:w-20 px-2 w-4/6" />
+                <img src="/img/rehh.png" class="md:w-24 px-2 w-6/6" />
               </span>
               <div class="text-center namecenter">
                 <h1 class="text-[24px] text-white font-bold" id="namecenter">
