@@ -51,21 +51,21 @@ function scrollFunction() {
 <template>
  <div class="bg-transparent w-full fixed z-[9999] transition delay-150 duration-300 ease-in-out will-change-scroll  " id="gen">
     <div
-      class="bg-[ rgba(126, 82, 193,0.7)] md:opacity-90 z-50 text-gray-100 py-5 px-6 md:flex justify-between items-center w-full border-b-[1px] border-[#bfcdeb]"
+      class="bg-[rgba(126, 82, 193,0.7)] md:opacity-90 z-50 text-gray-100 py-5 px-6 md:flex justify-between items-center w-full border-b-[1px] border-[#bfcdeb]"
     >
       <div class="flex items-center">
         <ul class="flex md:ml-20">
           <li>
             <router-link to="/" class="md:flex items-center grid grid-cols-2">
               <span class="md:py-1 md:px-1 md:mr-1">
-              <img src="/img/rehh.png" class="md:w-24 px-2 w-2/6" />
+              <img src="/img/rehhhh.png" class="  px-2    md:h-[100px]" />
               </span>
-              <div class="text-center namecenter hidden md:grid">
+              <!-- <div class="text-center namecenter hidden md:grid">
                 <h1 class="text-[24px] text-white font-bold" id="namecenter">
                   My Health
                 </h1>
                 <p class="font-bold text-blue-900">Leadership</p>
-              </div>
+              </div> -->
             </router-link>
           </li>
         </ul>
