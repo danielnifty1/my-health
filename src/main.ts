@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
+import Helloworld from './components/HelloWorld.vue'
 import Notifications from "@kyvg/vue3-notification";
 import { createPinia } from "pinia";
 import router from "./core/router/router";
@@ -9,7 +10,9 @@ import router from "./core/router/router";
 // initialize store
 const pinia = createPinia();    
 // create app
-const myHealthApp = createApp(App);
+// const myHealthApp = createApp(App);
+ const myHealthApp = createApp(Helloworld);
+
 myHealthApp.use(pinia);
 myHealthApp.use(router);
  myHealthApp.use(Notifications);
