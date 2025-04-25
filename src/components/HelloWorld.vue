@@ -17,10 +17,10 @@ const count = ref(0)
   <p class="text-bold text-center">
    Website service paused for now
   </p>
-  <p>
+
     </div>
    
-  </p>
+
  
 </template>
 
