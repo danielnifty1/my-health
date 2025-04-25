@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import './style.css'
-import App from './App.vue'
+// import App from './App.vue'
 import Helloworld from './components/HelloWorld.vue'
 import Notifications from "@kyvg/vue3-notification";
 import { createPinia } from "pinia";
